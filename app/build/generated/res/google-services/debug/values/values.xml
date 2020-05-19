@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">383438625948-8a04b0oa9vv7s7if9jkv2m2lkvnn6lfg.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://itscool-31814.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">383438625948</string>
+    <string name="google_api_key" translatable="false">AIzaSyA92se74TUWZW07X9H_OkYPMlMxCtfhzBY</string>
+    <string name="google_app_id" translatable="false">1:383438625948:android:995636ae7e407a06632159</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA92se74TUWZW07X9H_OkYPMlMxCtfhzBY</string>
+    <string name="google_storage_bucket" translatable="false">itscool-31814.appspot.com</string>
+    <string name="project_id" translatable="false">itscool-31814</string>
+</resources>

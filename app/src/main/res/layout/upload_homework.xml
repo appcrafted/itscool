@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/actionBarSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/actionBar_backBtn"
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_back"
+                    android:layout_gravity="start"
+                    android:padding="19dp"/>
+
+                <TextView
+                    android:id="@+id/actionBar_title"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/actionBar_backBtn"
+                    android:layout_weight="1.8"
+                    android:adjustViewBounds="true"
+                    android:gravity="center_vertical"
+                    android:scaleType="fitXY"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/heading" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@+id/actionBar_title"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/heading"
+                    android:gravity="end"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:background="@drawable/green_border"
+                        android:text="Add Leave"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:textSize="@dimen/heading" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+        <EditText
+            android:id="@+id/reason"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/grey_outline"
+            android:gravity="start"
+            android:hint="@string/Reason"
+            android:minHeight="40dp"
+            android:minLines="5"
+            android:paddingStart="10dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="10dp"
+            android:textColorHint="#000000"
+            android:textSize="@dimen/primaryText"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:weightSum="2"
+            android:id="@+id/upload_layout"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/upload_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:background="@drawable/red_border"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:text="@string/upload"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" >
+
+                </Button>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="-"
+                android:textColor="@color/textHeading"
+                android:visibility="visible"
+                android:contentDescription="@string/app_name"
+                android:padding="3dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

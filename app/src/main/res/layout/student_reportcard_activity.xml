@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adapter_report_card_exam_list"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGrey">
+
+            <TextView
+                android:id="@+id/studentReportCard_examResultNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/primaryText"
+                android:textColor="@color/textHeading"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/consolidate_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_margin="5dp"
+                android:text="Consolidate Marksheet"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:inputType="textCapWords"
+                android:background="@color/roboto_calendar_circle_4"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/gpa_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.6"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center|left"
+                android:text="@string/subject"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/textHeading"
+                android:textSize="@dimen/secondaryText"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:visibility="visible"
+                    android:layout_weight="0.7"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:typeface="sans"
+                    android:gravity="center"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/textHeading"
+                    android:textStyle="bold"
+                    android:text="@string/gradepoint"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:typeface="sans"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_weight="1"
+                    android:text="@string/CreditHours"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/textHeading"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:typeface="sans"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/QualityPoints"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/textHeading"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:typeface="sans"
+                    android:gravity="end"
+                    android:padding="5dp"
+                    android:text="@string/note"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/textHeading"
+                    android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/basic_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:minHeight="40dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/adapter_reportCard_examResult_subjectNameTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:layout_weight="1.3"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/textHeading"
+                    android:text="@string/subject" />
+
+                <TextView
+                    android:id="@+id/adapter_reportCard_examResult_passingmarksTV"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:visibility="visible"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/textHeading"
+                    android:text="@string/passingMarks"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/adapter_reportCard_examResult_marksObtainedTV"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_weight="1.2"
+                    android:text="@string/MarksObtained"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/textHeading" />
+
+                <TextView
+                    android:id="@+id/adapter_reportCard_examResult_resultTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:gravity="end"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="@string/result"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/textHeading" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/note"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/textHeading" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/studentReportCard_examResultListview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/gpa_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lightGrey"
+            android:weightSum="2"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:orientation="horizontal"
+                android:gravity="start"
+                android:paddingStart="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="@string/CreditHours"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/studentReportCard_credit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="horizontal"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="@string/QualityPoints"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/studentReportCard_qualitypoints"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/basic_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey"
+            android:weightSum="2"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="start"
+                android:paddingStart="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="@string/grandTotal"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/studentReportCard_examResulTotalTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="@string/percentage"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/studentReportCard_percentageTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:weightSum="2"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="start"
+                android:paddingStart="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="@string/division"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/studentReportCard_division"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textSize="12sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="left">
+
+                <TextView
+                    android:id="@+id/studentReportCard_gradeHeaderTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="@string/result"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textHeading"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/studentReportCard_statusTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="12sp"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:background="@drawable/green_border"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+        <!--  <LinearLayout
+
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="right"
+              android:orientation="vertical"
+              android:visibility="visible">
+
+              <Button
+                  android:id="@+id/consolidate_layout"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="consolidate Marksheet"
+                  android:background="@drawable/green_border"
+                  android:textColor="@color/white"
+                  android:textStyle="bold"
+                  android:visibility="visible"
+                  android:padding="5sp"/>
+
+          </LinearLayout>
+  -->
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+

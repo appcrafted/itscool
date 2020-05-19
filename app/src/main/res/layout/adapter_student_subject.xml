@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/adapter_student_subject"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomCardView"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/adapter_student_subject_nameHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/studentSubjectAdapter_subjectIconIV"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_nav_subject"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/studentSubjectAdapter_nameTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_toRightOf="@+id/studentSubjectAdapter_subjectIconIV"
+                    android:textColor="@color/textHeading"
+                    android:textSize="@dimen/primaryText"
+                    android:textStyle="bold"
+                    />
+
+               <!-- <TextView
+                    android:id="@+id/studentSubjectAdapter_codeTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/submit"
+                    android:textColor="@color/textHeading"
+                    android:textSize="@dimen/primaryText"
+                    android:textStyle="bold"
+                    />-->
+                <LinearLayout
+                    android:id="@+id/viewdetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_vertical"
+                    android:paddingEnd="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_view" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/view"
+                        android:textColor="@color/hyperLink"/>
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                >
+
+                <ImageView
+                    android:id="@+id/studentSubjectAdapter_subjectTypeIconIV"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_subject_type"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/studentSubjectAdapter_subjectType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textHeading"
+                    android:textSize="@dimen/secondaryText"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"
+                    android:text="asdasdasdas"
+                    android:layout_toEndOf="@+id/studentSubjectAdapter_subjectTypeIconIV"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

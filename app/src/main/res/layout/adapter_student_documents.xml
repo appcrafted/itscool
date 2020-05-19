@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/CustomCardView"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/adapter_student_documents_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/adapter_student_documents_documentIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_documents_certificate"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                />
+
+            <TextView
+                android:id="@+id/adapter_student_documents_documentNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:textSize="@dimen/primaryText"
+                android:textStyle="bold"
+                android:textColor="@color/textHeading"
+                android:gravity="start|center"
+                android:layout_toEndOf="@id/adapter_student_documents_documentIcon"
+                android:padding="5dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/adapter_student_documents_fileLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_toStartOf="@+id/adapter_student_documents_downloadBtn"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_file"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/adapter_student_documents_fileNameTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/textHeading"
+                    android:textStyle="bold"
+                    android:text="@string/empty"
+                    android:gravity="center_vertical"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/adapter_student_documents_downloadBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_nav_download"
+                    android:layout_margin="5dp"
+                    />
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textSize="@dimen/secondaryText"-->
+                    <!--android:textColor="@color/textHeading"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:text="@string/download"-->
+                    <!--android:gravity="center_vertical"/>-->
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+

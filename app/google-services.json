@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "383438625948",
+    "firebase_url": "https://itscool-31814.firebaseio.com",
+    "project_id": "itscool-31814",
+    "storage_bucket": "itscool-31814.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383438625948:android:995636ae7e407a06632159",
+        "android_client_info": {
+          "package_name": "com.itscool.smartschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383438625948-8a04b0oa9vv7s7if9jkv2m2lkvnn6lfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA92se74TUWZW07X9H_OkYPMlMxCtfhzBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383438625948-8a04b0oa9vv7s7if9jkv2m2lkvnn6lfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

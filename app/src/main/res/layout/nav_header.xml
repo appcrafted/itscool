@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:id="@+id/drawer_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/drawer_logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/placeholder_user"/>
+
+        <TextView
+            android:id="@+id/drawer_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/drawer_logo"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:layout_marginBottom="5dp"
+            android:text="@string/empty"
+            android:textSize="@dimen/primaryText"/>
+
+        <TextView
+            android:id="@+id/drawer_userClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/drawer_logo"
+            android:layout_below="@+id/drawer_userName"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"/>
+
+        <TextView
+            android:id="@+id/drawer_studentDetailsTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/drawer_logo"
+            android:layout_below="@+id/drawer_userName"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"/>
+
+        <LinearLayout
+            android:id="@+id/drawer_switchChildBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/drawer_logo"
+            android:layout_below="@+id/drawer_studentDetailsTV"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="visible"
+            android:background="@color/transparent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/switchStudent"
+                android:gravity="center"
+                android:textSize="@dimen/secondaryText"
+                android:textColor="@color/textHeading"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_nav_switch"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

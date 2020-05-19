@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/basic_adapterlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/adapter_reportCard_examResult_subjectNameTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="left"
+                android:layout_weight="1.3"
+                android:textSize="@dimen/secondaryText"
+                android:textColor="@color/textHeading"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/adapter_reportCard_examResult_passingmarksTV"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:textSize="@dimen/secondaryText"
+                android:textColor="@color/textHeading"
+                android:text="-"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/adapter_reportCard_examResult_marksObtainedTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_weight="1.2"
+                android:gravity="center"
+                android:text="-"
+                android:textSize="@dimen/secondaryText"
+                android:textColor="@color/textHeading" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/resultTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:text="-"
+                    android:background="@drawable/green_border"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/secondaryText"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/adapter_reportCard_examResult_resultTV"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="-"
+                android:textSize="@dimen/secondaryText"
+                android:textColor="@color/textHeading" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

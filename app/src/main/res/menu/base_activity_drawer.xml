@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile_plus"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_fees"
+            android:icon="@drawable/ic_nav_fees"
+            android:title="@string/fees"/>
+
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_calender_cross"
+            android:title="@string/timeTable" />
+
+        <item
+            android:id="@+id/nav_homework"
+            android:icon="@drawable/ic_dashboard_homework"
+            android:title="@string/homework" />
+
+        <item
+            android:id="@+id/nav_onlineexam"
+            android:icon="@drawable/ic_online_exams"
+            android:title="@string/onlineexam" />
+
+        <item
+            android:id="@+id/nav_applyleave"
+            android:icon="@drawable/ic_calender_cross"
+            android:title="@string/applyleave" />
+
+        <item
+            android:id="@+id/nav_downloadCenter"
+            android:icon="@drawable/ic_nav_download"
+            android:title="@string/downloadCenter" />
+
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_nav_attendance"
+            android:title="@string/attendance" />
+
+        <item
+            android:id="@+id/nav_examination"
+            android:icon="@drawable/ic_nav_reportcard"
+            android:title="@string/examination" />
+
+
+        <item
+            android:id="@+id/nav_noticeBoard"
+            android:icon="@drawable/ic_email_filled"
+            android:title="@string/noticeBoard" />
+
+        <item
+            android:id="@+id/nav_timeLine"
+            android:icon="@drawable/ic_nav_timeline"
+            android:title="@string/timeLine" />
+
+        <item
+            android:id="@+id/nav_documents"
+            android:icon="@drawable/ic_documents_certificate"
+            android:title="@string/documents" />
+
+        <item
+            android:id="@+id/nav_teachers"
+            android:icon="@drawable/ic_teacher"
+            android:title="@string/teachers" />
+
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_nav_library"
+            android:title="@string/library" />
+
+        <item
+            android:id="@+id/nav_transportRoute"
+            android:icon="@drawable/ic_nav_transport"
+            android:title="@string/transportRoute"/>
+
+        <item
+            android:id="@+id/nav_hostel"
+            android:icon="@drawable/ic_nav_hostel"
+            android:title="@string/hostel" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_nav_about"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_nav_logout"
+            android:title="@string/Logout"/>
+
+    </group>
+
+</menu>

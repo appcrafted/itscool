@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/student_dashboard_fragment_attendanceCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/CustomCardView"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/student_dashboard_fragment_attendanceView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingStart="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/student_dashboard_fragment_attendanceView_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_dashboard_attendance"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        />
+
+                    <RelativeLayout
+                        android:id="@+id/student_dashboard_fragment_attendance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginEnd="60dp"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/student_dashboard_fragment_attendance_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:gravity="start|center"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/textHeading"
+                            android:text="@string/attendance"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:gravity="start|center"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="@string/thisMonth"
+                            android:textColor="@color/textHeading"
+                            android:layout_below="@+id/student_dashboard_fragment_attendance_head"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="5dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/student_dashboard_fragment_attendance_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="22sp"
+                            android:gravity="center"
+                            android:textColor="@color/textHeading"
+                            />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/student_dashboard_fragment_homeworkCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/CustomCardView"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/student_dashboard_fragment_homeworkView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingStart="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/student_dashboard_fragment_homeworkView_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_dashboard_homework"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        />
+
+                    <RelativeLayout
+                        android:id="@+id/student_dashboard_fragment_homework"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginEnd="60dp"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/student_dashboard_fragment_homework_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:gravity="start|center"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/textHeading"
+                            android:text="@string/homework"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:gravity="start|center"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="@string/incomplete"
+                            android:textColor="@color/textHeading"
+                            android:layout_below="@+id/student_dashboard_fragment_homework_head"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="5dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/student_dashboard_fragment_homework_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="22sp"
+                            android:gravity="center"
+                            android:textColor="@color/textHeading"
+                            />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/student_dashboard_fragment_pendingTaskCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/CustomCardView"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/student_dashboard_fragment_pendingTaskView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="10dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/student_dashboard_fragment_pendingTaskView_icon"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:src="@drawable/ic_dashboard_pandingtask"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            />
+
+                        <RelativeLayout
+                            android:id="@+id/student_dashboard_fragment_pendingTask"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:id="@+id/student_dashboard_fragment_pendingTask_head"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="17sp"
+                                android:gravity="start|center"
+                                android:paddingStart="5dp"
+                                android:paddingEnd="5dp"
+                                android:textColor="@color/textHeading"
+                                android:text="@string/pendingTask" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:gravity="start|center"
+                                android:paddingStart="5dp"
+                                android:paddingEnd="5dp"
+                                android:text="@string/today"
+                                android:textColor="@color/textHeading"
+                                android:layout_below="@+id/student_dashboard_fragment_pendingTask_head" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="5dp">
+
+                            <TextView
+                                android:id="@+id/student_dashboard_fragment_pendingTask_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="22sp"
+                                android:gravity="center"
+                                android:textColor="@color/textHeading"
+                                />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <FrameLayout
+                        android:id="@+id/dashboardViewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/textHeading"
+                        />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/question_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/sno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:paddingLeft="10dp"
+                android:gravity="right"
+                android:textColor="@color/textHeading"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/questions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="-"
+                android:textColor="@color/textHeading"
+                android:textSize="@dimen/primaryText"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+           android:layout_margin="5dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioGroup
+                            android:id="@+id/radiogroup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <RadioButton
+                                android:id="@+id/option1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Option 1"
+                                android:background="@color/white"
+                                android:buttonTint="@color/textHeading"
+                                android:textColor="@color/hintDark" />
+
+                            <RadioButton
+                                android:id="@+id/option2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/hintDark"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/white"
+                                android:buttonTint="@color/textHeading"
+                                android:text="Option 2"/>
+
+                            <RadioButton
+                                android:id="@+id/option3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/textHeading"
+                                android:text="Option 3"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/white"
+                                android:textColor="@color/hintDark" />
+
+                            <RadioButton
+                                android:id="@+id/option4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/hintDark"
+                                android:background="@color/white"
+                                android:layout_marginTop="10dp"
+                                android:buttonTint="@color/textHeading"
+                                android:text="Option 4"/>
+
+                            <RadioButton
+                                android:id="@+id/option5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/hintDark"
+                                android:background="@color/white"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="10dp"
+                                android:buttonTint="@color/textHeading"
+                                android:text="Option 5"/>
+
+                        </RadioGroup>
+                    </LinearLayout>
+                </LinearLayout>
+
+        </LinearLayout>
+            </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nodata_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/no_data"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10sp"
+            android:text="@string/noQuestionFound"/>
+
+    </LinearLayout>
+
+</LinearLayout>

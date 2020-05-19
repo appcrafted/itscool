@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".students.StudentProfile"
+    android:background="@drawable/img_background_main"
+    android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardPreventCornerOverlap="false"
+            android:elevation="8dp"
+            android:layout_marginEnd="@dimen/card_end"
+            android:layout_marginStart="@dimen/card_start"
+            app:cardCornerRadius="0dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/profile_headerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/studentProfile_profileImageview"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/studentProfile_profileImageview"
+                    android:layout_centerVertical="true">
+
+                    <TextView
+                        android:id="@+id/studentProfile_nameTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/primaryText"
+                        android:text="@string/empty"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/studentProfile_classTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/secondaryText"
+                        android:layout_below="@+id/studentProfile_nameTV"
+                        android:text="@string/empty"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        />
+
+                    <TextView
+                        android:id="@+id/studentProfile_admissionNoHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/secondaryText"
+                        android:layout_below="@+id/studentProfile_classTV"
+                        android:text="@string/admissionNo"
+                        android:layout_marginEnd="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        />
+
+                    <TextView
+                        android:id="@+id/studentProfile_admissionNoTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/secondaryText"
+                        android:layout_below="@+id/studentProfile_classTV"
+                        android:layout_toEndOf="@id/studentProfile_admissionNoHeader"
+                        android:text="@string/empty"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        />
+
+                    <TextView
+                        android:id="@+id/studentProfile_rollNoHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/secondaryText"
+                        android:layout_below="@+id/studentProfile_admissionNoTV"
+                        android:text="@string/RollNo"
+                        android:layout_marginEnd="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        />
+
+                    <TextView
+                        android:id="@+id/studentProfile_rollNoTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/secondaryText"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/studentProfile_admissionNoTV"
+                        android:layout_toEndOf="@id/studentProfile_rollNoHeader"
+                        android:text="@string/empty"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardPreventCornerOverlap="false"
+            android:elevation="8dp"
+            android:layout_marginEnd="@dimen/card_end"
+            android:layout_marginStart="@dimen/card_start"
+            app:cardCornerRadius="0dp">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/profileTabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabMode="fixed"
+                app:tabGravity="fill"
+                app:tabTextAppearance="@style/CustomTablayout" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/profileViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</LinearLayout>

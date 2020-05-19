@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">620212369265-is96emr94hevdvailnpe4kfiesm6c50i.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://smart-school-2019.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">620212369265</string>
+    <string name="google_api_key" translatable="false">AIzaSyCXCTYRVo1IPK2KyxbCTDw4or-1y40Rfjk</string>
+    <string name="google_app_id" translatable="false">1:620212369265:android:f73114e0dcb7902ef068d0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCXCTYRVo1IPK2KyxbCTDw4or-1y40Rfjk</string>
+    <string name="google_storage_bucket" translatable="false">smart-school-2019.appspot.com</string>
+    <string name="project_id" translatable="false">smart-school-2019</string>
+</resources>

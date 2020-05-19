@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/pullToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+    android:id="@+id/admDate_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:padding="5dp"
+        android:textSize="@dimen/secondaryText"
+        android:textStyle="bold"
+        android:textColor="@color/textHeading"
+        android:text="@string/admDate"/>
+
+    <TextView
+        android:id="@+id/admDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:padding="5dp"
+        android:text="@string/empty"
+        android:textColor="@color/textHeading"
+        android:textSize="@dimen/secondaryText"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dob_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/dob"/>
+
+        <TextView
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/category"/>
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mobile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/mobileNo"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/mobileno"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Caste_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/caste"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:id="@+id/caste"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/religion_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/religion"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:id="@+id/religion"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/email_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/email"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/currentAdd_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/currentAdd"/>
+
+        <TextView
+            android:id="@+id/currentAdd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/permanentAdd_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/permanentAdd"/>
+
+        <TextView
+            android:id="@+id/permanentAdd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/blood_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/bloodGroup"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bloodgroup"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/height_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/height"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/height"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/weight_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/weight"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/weight"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/asOnDate_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/asOnDate"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/asOnDate"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+               >
+
+               <android.support.v7.widget.RecyclerView
+                   android:id="@+id/recyclerview"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+</LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>>
+</LinearLayout>

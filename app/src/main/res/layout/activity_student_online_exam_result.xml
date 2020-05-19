@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaseActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/actionBarSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="56dp">
+
+            <ImageView
+                android:id="@+id/actionBar_backBtn"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_back"
+                android:layout_gravity="start"
+                android:padding="19dp"/>
+
+            <TextView
+                android:id="@+id/actionBar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/actionBar_backBtn"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:textSize="@dimen/heading"
+                android:textColor="@color/white"
+                android:gravity="center_vertical" />
+            <LinearLayout
+                android:id="@+id/baseActivity_taskBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:background="@color/transparent"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_dashboard_pandingtask"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/task"
+                    android:textSize="@dimen/primaryText"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:elevation="2dp"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Exam"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/exam"
+                android:textColor="@color/textHeading"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Total Attempt"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/attempt"
+                android:layout_width="0dp"
+                android:textColor="@color/textHeading"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Exam From"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/fromdate"
+                android:layout_width="0dp"
+                android:textColor="@color/textHeading"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Exam To"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/todate"
+                android:layout_width="0dp"
+                android:textColor="@color/textHeading"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Duration"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="0dp"
+                android:textColor="@color/textHeading"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Passing (%)"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/percent"
+                android:layout_width="0dp"
+                android:textColor="@color/textHeading"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Total Questions"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/total_quest"
+                android:layout_width="0dp"
+                android:textColor="@color/textHeading"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Correct"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/correct"
+                android:layout_width="0dp"
+                android:textColor="@color/textHeading"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Wrong"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/wrong"
+                android:layout_width="0dp"
+                android:textColor="@color/textHeading"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Not Attempted"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/notattempt"
+                android:layout_width="0dp"
+                android:textColor="@color/textHeading"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:text="Score (%)"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="0dp"
+                android:textColor="@color/textHeading"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--Secondary Action-bar looking view -->
+    <!-- Content -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:id="@+id/pullToRefresh"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/nodata_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/no_data" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Data Found !"
+            android:textSize="@dimen/primaryText"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\SmartSchoolApp\\SmartSchool\\androapp\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\library-1.09.aar\\9d752f451628f969d511a2e80cb69fe9\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,110,178,225,270,318,364,409,453,498,540,582,623,672",
+                        "endColumns": "54,67,46,44,47,45,44,43,44,41,41,40,48,42",
+                        "endOffsets": "105,173,220,265,313,359,404,448,493,535,577,618,667,710"
+                    }
+                }
+            ]
+        }
+    ]
+}

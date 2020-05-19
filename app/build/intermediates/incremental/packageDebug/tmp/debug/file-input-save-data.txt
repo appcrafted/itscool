@@ -1,0 +1,23 @@
+#Internal package file, do not edit.
+#Tue May 19 22:46:06 IST 2020
+2.base=/root/Documents/forme/itscool/schoolApp/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+0.path=fonts/omnes_extralight.ttf
+2.baseType=DIRECTORY
+3.base=/root/Documents/forme/itscool/schoolApp/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+2.set=ASSET
+1.path=classes.dex
+4.base=/root/Documents/forme/itscool/schoolApp/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+count=5
+2.path=fonts/omnes_light.ttf
+4.set=ASSET
+3.path=fonts/omnes_medium.ttf
+3.baseType=DIRECTORY
+1.set=DEX
+4.path=fonts/roboto.ttf
+1.baseType=DIRECTORY
+0.base=/root/Documents/forme/itscool/schoolApp/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=/root/Documents/forme/itscool/schoolApp/app/build/intermediates/dex/debug/mergeDexDebug/out
+4.baseType=DIRECTORY
+0.set=ASSET

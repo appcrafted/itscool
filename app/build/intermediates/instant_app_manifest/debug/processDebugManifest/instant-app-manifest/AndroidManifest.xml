@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itscool.smartschool"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="2.1" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.itscool.smartschool.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.itscool.smartschool.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.itscool.smartschool.utils.MyApp"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:launchMode="singleInstance"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.itscool.smartschool.students.NotificationList" />
+        <activity android:name="com.itscool.smartschool.students.StudentOnlineExamQuestionsNew" />
+        <activity android:name="com.itscool.smartschool.students.StudentOnlineExamResult" />
+        <activity android:name="com.itscool.smartschool.students.StudentOnlineExam" />
+        <activity android:name="com.itscool.smartschool.AboutSchool" />
+        <activity android:name="com.itscool.smartschool.students.StudentTimeline" />
+        <activity android:name="com.itscool.smartschool.students.StudentDocuments" />
+        <activity android:name="com.itscool.smartschool.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.itscool.smartschool.Login" />
+        <activity android:name="com.itscool.smartschool.students.StudentProfile" />
+        <activity android:name="com.itscool.smartschool.students.StudentProfileNew" />
+        <activity android:name="com.itscool.smartschool.students.StudentProfileDetailsNew" />
+        <activity android:name="com.itscool.smartschool.students.StudentUploadHomework" />
+        <activity android:name="com.itscool.smartschool.ForgotPassword" />
+        <activity android:name="com.itscool.smartschool.BaseActivity" />
+        <activity
+            android:name="com.itscool.smartschool.students.StudentFees"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="student_fees" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.itscool.smartschool.students.StudentNoticeBoard" />
+        <activity android:name="com.itscool.smartschool.students.StudentExaminationList" />
+        <activity android:name="com.itscool.smartschool.students.StudentReportCard_ExamListResult" />
+        <activity android:name="com.itscool.smartschool.students.StudentSubjectList" />
+        <activity android:name="com.itscool.smartschool.students.StudentChat" />
+        <activity android:name="com.itscool.smartschool.students.StudentTeachersList" />
+        <activity android:name="com.itscool.smartschool.students.StudentTransportRoutes" />
+        <activity android:name="com.itscool.smartschool.students.StudentDownloads" />
+        <activity android:name="com.itscool.smartschool.students.StudentAttendance" />
+        <activity android:name="com.itscool.smartschool.students.StudentReportCard_ExamList" />
+        <activity android:name="com.itscool.smartschool.students.StudentExamSchedule_ExamList" />
+        <activity android:name="com.itscool.smartschool.students.StudentExamSchedule" />
+        <activity android:name="com.itscool.smartschool.students.StudentHostel" />
+        <activity android:name="com.itscool.smartschool.students.StudentLibraryBook" />
+        <activity android:name="com.itscool.smartschool.students.StudentClassTimetable" />
+        <activity android:name="com.itscool.smartschool.students.StudentHomework" />
+        <activity android:name="com.itscool.smartschool.students.StudentHomeworkDetails" />
+        <activity android:name="com.itscool.smartschool.students.StudentLibraryBookIssued" />
+        <activity android:name="com.itscool.smartschool.students.StudentAppyLeave" />
+        <activity android:name="com.itscool.smartschool.students.StudentAddLeaveNew" />
+        <activity android:name="com.itscool.smartschool.students.StudentAddLeave" />
+        <activity android:name="com.itscool.smartschool.students.StudentEditLeave" />
+        <activity android:name="com.itscool.smartschool.students.StudentEditLeaveNew" />
+        <activity android:name="com.itscool.smartschool.TakeUrl" />
+        <activity
+            android:name="com.itscool.smartschool.students.StudentDashboard"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity android:name="com.itscool.smartschool.students.StudentTasks" />
+        <activity android:name="com.itscool.smartschool.students.Payment" />
+
+        <service android:name="com.itscool.smartschool.utils.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.itscool.smartschool.utils.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.nbsp.materialfilepicker.ui.FilePickerActivity"
+            android:theme="@style/MFP_BaseTheme" >
+        </activity>
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.itscool.smartschool" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.itscool.smartschool.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

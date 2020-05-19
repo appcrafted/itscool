@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/CustomCardView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/adapter_student_libraryBook_nameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/adapter_student_libraryBook_indicatorIV"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_open_book"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:id="@+id/adapter_student_examSchedule_subjectTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:textSize="@dimen/primaryText"
+                android:gravity="start|center"
+                android:textColor="@color/textHeading"
+                android:textStyle="bold"
+                android:layout_toEndOf="@id/adapter_student_libraryBook_indicatorIV"
+                android:padding="5dp" />
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/adapter_student_libraryBook_detailView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adapter_student_libraryBook_nameView"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <!--AUTHOR NAME AND SUBJECT NAME VIEW STARTS-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_calender"
+                    android:layout_margin="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="2"
+                    android:layout_toEndOf="@+id/adapter_student_examSchedule_calenderIcon">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/secondaryText"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        android:text="@string/date"/>
+
+                    <TextView
+                        android:id="@+id/adapter_student_examSchedule_dateTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:textSize="@dimen/secondaryText"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/adapter_student_examSchedule_calenderIcon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_room"
+                        android:layout_margin="5dp" />
+
+                    <LinearLayout
+                        android:id="@+id/adapter_student_examSchedule_dateLay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="2"
+                        android:layout_toEndOf="@+id/adapter_student_examSchedule_calenderIcon">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            android:text="@string/hostelRoomNo"/>
+
+                        <TextView
+                            android:id="@+id/adapter_student_examSchedule_roomTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_clock"
+                        android:layout_margin="5dp"
+                        android:layout_toStartOf="@+id/adapter_student_examSchedule_timeLay" />
+
+                    <LinearLayout
+                        android:id="@+id/adapter_student_examSchedule_timeLay"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            android:text="@string/starttime"/>
+
+                        <TextView
+                            android:id="@+id/adapter_student_examSchedule_timeTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!--AUTHOR NAME AND SUBJECT NAME VIEW ENDS-->
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/adapter_student_libraryBook_View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adapter_student_libraryBook_detailView"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <!--AUTHOR NAME AND SUBJECT NAME VIEW STARTS-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_clock"
+                        android:layout_margin="5dp"
+                        android:layout_toStartOf="@+id/adapter_student_examSchedule_timeLay" />
+
+                    <LinearLayout
+                        android:id="@+id/adapter_student_examSchedule_durationLay"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            android:text="@string/duration"/>
+
+                        <TextView
+                            android:id="@+id/adapter_student_examSchedule_duration"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="2"
+                    android:layout_weight="1"
+                    android:layout_toEndOf="@+id/adapter_student_examSchedule_calenderIcon">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/secondaryText"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="@string/max"/>
+
+                    <TextView
+                        android:id="@+id/adapter_student_examSchedule_max"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="-"
+                        android:gravity="center"
+                        android:textSize="@dimen/secondaryText"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:layout_toEndOf="@+id/adapter_student_examSchedule_calenderIcon">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            android:text="@string/min"/>
+
+                        <TextView
+                            android:id="@+id/adapter_student_examSchedule_min"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="2"
+                    android:layout_weight="1"
+                    android:layout_toEndOf="@+id/adapter_student_examSchedule_calenderIcon">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/secondaryText"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        android:gravity="right"
+                        android:text="@string/CreditHours"/>
+
+                    <TextView
+                        android:id="@+id/adapter_student_examSchedule_CreditHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="-"
+                        android:gravity="center"
+                        android:textSize="@dimen/secondaryText"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            </LinearLayout>
+            <!--AUTHOR NAME AND SUBJECT NAME VIEW ENDS-->
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+

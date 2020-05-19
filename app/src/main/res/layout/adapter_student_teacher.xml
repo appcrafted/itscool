@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/adapter_student_teacher"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        style="@style/CustomCardView"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/adapter_student_teacher_nameHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/studentSubjectAdapter_teacherIconIV"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_teacher"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/studentTeacherAdapter_nameTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/studentSubjectAdapter_teacherIconIV"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/primaryText"
+                    android:textColor="@color/textHeading"
+                    />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_weight="0.90"
+                    >
+
+                    <ImageView
+                        android:id="@+id/studentSubjectAdapter_teacherMailIconIV"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_email"
+                        />
+
+                    <TextView
+                        android:id="@+id/studentTeacherAdapter_emailTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/secondaryText"
+                        android:textColor="@color/textHeading"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_weight="1.10"
+                    >
+
+                    <ImageView
+                        android:id="@+id/studentSubjectAdapter_teacherPhoneIconIV"
+                        android:layout_width="30dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/ic_phone"
+                        />
+
+                    <TextView
+                        android:id="@+id/studentTeacherAdapter_contactTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/secondaryText"
+                        android:textColor="@color/textHeading"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+
+
+
+

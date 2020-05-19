@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/addTask_dialog_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/textHeading">
+
+            <ImageView
+                android:id="@+id/addTask_dialog_calenderIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_dashboard_pandingtask"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:tint="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:textSize="@dimen/primaryText"
+                android:gravity="start|center"
+                android:layout_toEndOf="@id/addTask_dialog_calenderIcon"
+                android:padding="5dp"
+                android:text="@string/editLeave"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/addTask_dialog_crossIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_close"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"
+                android:tint="@color/white" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/addLeave_dialog_apply_dateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/grey_outline">
+
+            <TextView
+                android:id="@+id/addLeave_dialog_apply_dateTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:textSize="@dimen/primaryText"
+                android:gravity="start|center"
+                android:padding="5dp"
+                android:text="@string/AppliedDate"
+                android:textStyle="bold"
+                android:textColor="@color/textHeading" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/addLeave_dialog_dateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/addLeave_dialog_fromdateTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:textSize="@dimen/primaryText"
+                android:gravity="start|center"
+                android:padding="5dp"
+                android:background="@drawable/grey_outline"
+                android:text="@string/fromDate"
+                android:textStyle="bold"
+                android:textColor="@color/textHeading"
+                />
+            <TextView
+                android:id="@+id/addLeave_dialog_todateTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/grey_outline"
+                android:layout_marginStart="5dp"
+                android:textSize="@dimen/primaryText"
+                android:gravity="start|center"
+                android:padding="5dp"
+                android:text="@string/toDate"
+                android:textStyle="bold"
+                android:textColor="@color/textHeading"
+                />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/reason"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/grey_outline"
+            android:gravity="start"
+            android:hint="@string/Reason"
+            android:minHeight="40dp"
+            android:minLines="5"
+            android:paddingStart="10dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="10dp"
+            android:textColorHint="#000000"
+            android:textSize="@dimen/primaryText"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/upload_file"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:minHeight="40dp"
+            android:text="@string/upload"
+            android:textColor="@color/white"
+            android:background="@drawable/red_button"
+            android:gravity="center"
+            android:textSize="@dimen/primaryText"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addLeave_dialog_submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:background="@color/hintDark"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/primaryText"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

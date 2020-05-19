@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/adapter_student_feesDetail_viewContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/adapter_student_feesDetail_paymentId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.90"
+            android:textSize="@dimen/secondaryText"
+            android:textColor="@color/textHeading"
+            android:text="@string/paymentId"
+            />
+
+        <TextView
+            android:id="@+id/adapter_student_feesDetail_paymentDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.90"
+            android:textSize="@dimen/secondaryText"
+            android:textColor="@color/textHeading"
+            android:text="@string/paymentDate"
+            />
+
+        <TextView
+            android:id="@+id/adapter_student_feesDetail_paymentDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/secondaryText"
+            android:textColor="@color/textHeading"
+            android:text="@string/paymentDiscount"
+            />
+
+        <TextView
+            android:id="@+id/adapter_student_feesDetail_paymentFine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.10"
+            android:textSize="@dimen/secondaryText"
+            android:textColor="@color/textHeading"
+            android:text="@string/paymentFine"
+            />
+
+        <TextView
+            android:id="@+id/adapter_student_feesDetail_paymentPaid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.10"
+            android:textSize="@dimen/secondaryText"
+            android:textColor="@color/textHeading"
+            android:text="@string/paymentPaid"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/adapter_student_feesDetail_paymentNoteTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textSize="@dimen/secondaryText"
+        android:textColor="@color/textHeading"
+        android:text="@string/paymentId"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        />
+
+</LinearLayout>
+
+

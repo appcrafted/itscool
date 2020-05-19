@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adapter_fragment_studentdownload_syllabus"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    style="@style/CustomCardView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/adapter_fragment_nameLay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/adapter_fragment_studentdownload_syllabus_nameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="@dimen/primaryText"
+                android:textStyle="bold"
+                android:textColor="@color/textHeading"
+                android:layout_toStartOf="@+id/adapter_fragment_studentdownload_syllabus_dateTV"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:id="@+id/adapter_fragment_studentdownload_syllabus_dateTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="@dimen/primaryText"
+                android:textStyle="bold"
+                android:textColor="@color/textHeading"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:id="@+id/adapter_fragment_studentdownload_syllabus_descTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="@dimen/primaryText"
+                android:textStyle="bold"
+                android:textColor="@color/textHeading"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/adapter_fragment_studentdownload_syllabus_downloadBtn"
+                android:layout_marginEnd="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/adapter_fragment_studentdownload_syllabus_downloadBtn"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/ic_nav_download"
+                android:layout_margin="5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+

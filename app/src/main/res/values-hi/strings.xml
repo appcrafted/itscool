@@ -1,0 +1,324 @@
+<resources>
+
+    <string name="app_name">ItsCool</string>
+    <string name="empty"></string>
+
+    <!--TAKE URL PAGE-->
+    <string name="domainHead">अपने स्कूल का युआरएल दर्ज करें</string>
+    <string name="submit">जमा करें</string>
+
+    <!--TAKE URL PAGE-->
+
+    <!--LOGIN PAGE    -->
+    <string name="login">लॉग इन करें</string>
+    <string name="userNameHint">उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="userPasswordHint">पास वर्ड दर्ज करें</string>
+    <string name="forgotPassword">पासवर्ड भूल गए?</string>
+    <string name="changeUrl">डोमेन बदलें</string>
+    <!--LOGIN PAGE-->
+
+    <!--PROFILE PAGE-->
+    <string name="admissionNo">प्रवेश संख्या / रोल नंबर</string>
+    <string name="RollNo">रोल नंबर</string>
+    <string name="rte">आरटीई</string>
+    <string name="personalDetail">व्यक्तिगत विवरण</string>
+
+    <string name="admDate">प्रवेश तिथि</string>
+    <string name="dob">जन्म की तारीख</string>
+    <string name="category">वर्ग</string>
+    <string name="mobileNo">मोबाइल नंबर</string>
+    <string name="caste">जाति</string>
+    <string name="religion">धर्म</string>
+    <string name="email">ईमेल</string>
+
+
+    <string name="address">पता</string>
+    <string name="currentAdd">वर्तमान पता</string>
+    <string name="permanentAdd">स्थाई पता</string>
+
+    <string name="parentsDetails">माता-पिता का विवरण</string>
+    <string name="fatherName">पिता का नाम</string>
+    <string name="fatherPhone">पिता का फोन</string>
+    <string name="fatherOcc">पिता का व्यवसाय</string>
+    <string name="motherName">पिता का नाम</string>
+    <string name="motherPhone">माँ का फ़ोन</string>
+    <string name="motherOcc">मां का व्यवसाय</string>
+
+    <string name="gardianName">अभिभावक का नाम</string>
+    <string name="gardianEmail">गार्डियन का ईमेल</string>
+    <string name="gardianRelation">गार्डियन का संबंध</string>
+    <string name="gardianPhone">गार्डियन का फोन</string>
+    <string name="gardianOcc">गार्डियन का व्यवसाय</string>
+    <string name="gardianAdd">गार्डियन का पता</string>
+
+    <string name="otherDetails">अन्य जानकारी</string>
+    <string name="previousSchool">पिछला स्कूल</string>
+    <string name="nationalIdNo">राष्ट्रीय पहचान संख्या</string>
+    <string name="localIdNo">स्थानीय आईडी नंबर</string>
+    <string name="bankAcNo">बैंक खाता संख्या</string>
+    <string name="ifscCode">IFSC कोड</string>
+
+    <string name="bankName">बैंक का नाम</string>
+    <string name="vehicleRoute">वाहन मार्ग</string>
+    <string name="bloodGroup">रक्त समूह</string>
+    <string name="studentHouse">छात्र सभा</string>
+    <string name="height">ऊंचाई</string>
+    <string name="weight">वजन</string>
+    <string name="asOnDate">आज की तारीख में</string>
+
+    <!--PROFILE PAGE    -->
+
+    <!--Attendance Page-->
+    <string name="present">वर्तमान</string>
+    <string name="absent">अनुपस्थित</string>
+    <string name="late">देर से</string>
+    <string name="halfDay">आधा दिन</string>
+    <string name="holiday">छुट्टी का दिन</string>
+    <!--Attendance Page-->
+
+    <!--TRANSPORT ROUTES PAGE-->
+    <string name="routeName">मार्ग का नाम</string>
+    <string name="vehicleNo">वाहन संख्या</string>
+    <!--TRANSPORT ROUTES PAGE-->
+
+    <!--MENU-->
+    <string name="home">होम</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="fees">फीस</string>
+    <string name="timeTable">समय सारणी</string>
+    <string name="homework">घर का पाठ</string>
+    <string name="onlineexam">ऑनलाइन परीक्षा</string>
+    <string name="applyleave">छुट्टी</string>
+    <string name="downloadCenter">डाउनलोड केंद्र</string>
+    <string name="attendance">उपस्थिति</string>
+    <string name="examination">परीक्षा</string>
+    <string name="reportCard">रिपोर्ट कार्ड</string>
+    <string name="examSchedule">परीक्षा अनुसूची</string>
+    <string name="noticeBoard">सूचना पट्ट</string>
+    <string name="timeLine">समय रेखा</string>
+    <string name="documents">मेरे दस्तावेज</string>
+    <string name="subject">विषय</string>
+    <string name="day">दिन</string>
+    <string name="staff">शिक्षक</string>
+    <string name="teachers">शिक्षकों की</string>
+    <string name="library">पुस्तकालय</string>
+    <string name="libraryBookIssued">लाइब्रेरी बुक्स जारी की</string>
+    <string name="transportRoute">परिवहन मार्ग</string>
+    <string name="hostelRoom">छात्रावास का कमरा</string>
+    <string name="switchStudent">छात्र स्विच करें</string>
+    <string name="about">विद्यालय की जानकारी </string>
+    <string name="Logout">लोग आउट</string>
+    <!--MENU-->
+
+    <!--BOTTOM NAVIGATION-->
+    <string name="notice">नोटिस</string>
+    <!--BOTTOM NAVIGATION-->
+    <string name="upload">दस्तावेज अपलोड करें</string>
+    <!--OTHERS-->
+    <string name="noInternetMsg">कोई इंटरनेट कनेक्शन नहीं मिला</string>
+    <string name="slowInternetMsg">कोई इंटरनेट कनेक्शन नहीं मिला</string>
+    <string name="invalidPassword">अमान्य उपयोगकर्ता नाम / पासवर्ड </string>
+    <string name="invalidUsername">अमान्य ईमेल या उपयोगकर्ता प्रकार</string>
+    <string name="hostel">हॉस्टल</string>
+    <string name="payFees">शुल्क भुगतान करें</string>
+    <string name="notScheduled">अनुसूचित नहीं है</string>
+    <string name="blank">परीक्षण परीक्षण</string>
+    <string name="noData">कोई डेटा नहीं मिला! </string>
+    <string name="noQuestionFound">कोई प्रश्न नहीं मिला, कृपया प्रशासक से संपर्क करें </string>
+    <string name="toDo">करने के लिए सूची</string>
+    <string name="chat">चैट</string>
+    <string name="selectChild">बच्चे का चयन करें</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="childList">छात्र सूची</string>
+    <string name="logoutMsg">क्या आप लॉग आउट करना चाहते हैं?</string>
+    <string name="deleteMsg">क्या आप इसे हटाना चाहते हैं?</string>
+    <string name="verificationMessage">System Error! You are using unregistered version.</string>
+    <string name="yes">हाँ</string>
+    <string name="ok">Ok</string>
+    <string name="no">नहीं</string>
+    <string name="consolidate">समेकित मार्कशीट</string>
+    <string name="exam">परीक्षा</string>
+    <string name="startexam">परीक्षा प्रारंभ करें</string>
+    <string name="starttime">समय शुरू</string>
+
+    <!--OTHERS-->
+    <string name="rating">रेटिंग जोड़ें</string>
+    <string name="comment">टिप्पणी</string>
+    <string name="Approve">ठीक है</string>
+    <string name="Pending">अपूर्ण</string>
+    <!--HOSTEL LIST PAGE-->
+    <string name="view">राय</string>
+    <string name="report_card">परीक्षा की रिपोर्ट</string>
+    <string name="exam_schedule">परीक्षा अनुसूची</string>
+    <string name="hostelRoomType">कमरे जैसा</string>
+    <string name="hostelRoomNo">कमरा क्रमांक</string>
+    <string name="hostelRoomCost">कमरे की लागत</string>
+    <!--HOSTEL LIST PAGE-->
+
+    <!--DOWNLOAD CENTER PAGE-->
+    <string name="download">डाउनलोड</string>
+    <string name="assignment">  कार्य </string>
+    <string name="studyMaterial"> अध्ययन सामग्री</string>
+    <string name="syllabus"> पाठ्यक्रम</string>
+    <string name="otherDownload"> अन्य डाउनलोड</string>
+    <!--DOWNLOAD CENTER PAGE-->
+
+    <!--Exam Result (Exam List) PAGE-->
+    <string name="result">परिणाम</string>
+    <string name="grandTotal">कुल योग</string>
+    <string name="percentage">प्रतिशत</string>
+    <string name="grade">ग्रेड</string>
+    <string name="MarksObtained">प्राप्तांक</string>
+    <!--Exam Result (Exam List) PAGE-->
+
+    <!--Exam Result (Exam List) PAGE-->
+    <string name="vehicleModel">वाहन मॉडल</string>
+    <string name="made">बनाया गया</string>
+    <string name="driverName">चालक का नाम</string>
+    <string name="driverLicence">चालक लाइसेंस</string>
+    <string name="driverContact">ड्राइवर से संपर्क करें</string>
+    <!--Exam Result (Exam List) PAGE-->
+
+    <!--LIBRARY ISSUED-->
+    <string name="rackNo">रैक नं : </string>
+    <string name="quantity">मात्रा : </string>
+    <string name="price">मूल्य : </string>
+    <string name="createdOn">पर जोड़ा </string>
+    <string name="booksIssued">पुस्तकें जारी की</string>
+    <string name="book">पुस्तकें</string>
+    <!--LIBRARY ISSUED-->
+
+    <!--ONLINE EXAM-->
+    <string name="startEndTime">प्रारंभ समय / समाप्ति समय</string>
+    <string name="date">दिनांक</string>
+    <string name="max">अधिकतम अंक</string>
+    <string name="min">न्यूनतम अंक</string>
+    <string name="datefrom">तारीख से</string>
+    <string name="dateto">तारीख तक</string>
+    <string name="totalattempts">कुल प्रयास</string>
+    <string name="attempted">प्रयास किया</string>
+    <string name="duration">अवधि</string>
+    <string name="subjectdetail">विषय विवरण</string>
+    <!--ONLINE EXAM-->
+
+    <!--FEES -->
+    <string name="dueDate">नियत तारीख</string>
+    <string name="amt">रकम</string>
+    <string name="paidAmt">अदा की</string>
+    <string name="balanceAmt">शेष राशि</string>
+    <string name="feeDetail">फीस का विवरण</string>
+    <string name="balance">संतुलन</string>
+    <string name="discountMsg">की छूट </string>
+
+    <string name="paymentId">आईडी</string>
+    <string name="paymentDate">दिनांक</string>
+    <string name="paymentDiscount">छूट</string>
+    <string name="paymentFine">ठीक</string>
+    <string name="paymentPaid">भुगतान किया है</string>
+    <string name="pay">वेतन</string>
+    <!--FEES-->
+
+
+
+    <!--CLASS TIMETABLE-->
+    <string name="monday">सोमवार</string>
+    <string name="tuesday">मंगलवार</string>
+    <string name="wednesday">बुधवार</string>
+    <string name="thursday">गुरूवार</string>
+    <string name="friday">शुक्रवार</string>
+    <string name="saturday">शनिवार</string>
+    <string name="sunday">रविवार</string>
+    <string name="time">समय</string>
+    <!--CLASS TIMETABLE-->
+
+    <!--CLASS Subject-->
+    <string name="english">अंग्रेज़ी</string>
+    <string name="science">विज्ञान</string>
+    <string name="mathematics">गणित</string>
+    <string name="hindi">हिंदी</string>
+
+    <!--CLASS Subject-->
+
+
+    <!--REPORT CARD DETAIL-->
+    <string name="passingMarks">पासिंग मार्क्स</string>
+    <string name="gradepoint">मूल्यांकन</string>
+    <string name="CreditHours">क्रेडिट घंटे</string>
+    <string name="QualityPoints">गुणवत्ता अंक</string>
+    <string name="note">नोट</string>
+    <string name="status">स्थिति</string>
+    <!--REPORT CARD DETAIL-->
+
+    <!--DASHBOARD DETAIL-->
+    <string name="thisMonth">इस महीने</string>
+    <string name="incomplete">अधूरा</string>
+    <string name="pendingTask">आज का लंबित कार्य</string>
+    <string name="calender">कैलेंडर</string>
+    <string name="today">आज का दि</string>
+    <string name="taskAndEvents">कार्य और घटनाएँ</string>
+    <!--DASHBOARD DETAIL-->
+
+    <!--PROFILE PAGE-->
+    <string name="father">पिता</string>
+    <string name="mother">मां</string>
+    <string name="guardian">अभिभावक</string>
+    <!--PROFILE PAGE-->
+
+
+    <!--HOMEWORK-->
+    <string name="homeworkDate">बनाया था</string>
+    <string name="submissionDate">प्रस्तुत करने</string>
+    <string name="evaluationDate">मूल्यांकन</string>
+    <string name="createdBy">के द्वारा बनाई गई</string>
+    <string name="evaluatedBy">द्वारा मूल्यांकन</string>
+    <string name="homeworkDetails">होमवर्क विवरण</string>
+    <!--HOMEWORK-->
+
+    <!--LIBRARY BOOKS ISSUED PAGE-->
+    <string name="bookNumber">पुस्तक नं। </string>
+    <string name="issueDate">जारी करने की तिथि </string>
+    <string name="returnDate">वापसी की तिथि </string>
+    <string name="libraryStatus">स्थिति </string>
+    <string name="author">लेखक </string>
+    <string name="returned">लौटा हुआ</string>
+    <string name="notReturned">लौटा नहीं</string>
+    <!--LIBRARY BOOKS ISSUED PAGE-->
+
+    <!--TASK-->
+    <string name="task">नया कार्य </string>
+    <string name="createNewTask">टास्क जोड़ें</string>
+    <string name="selectDate">कार्य दिनांक </string>
+    <string name="taskTitle">कार्य का शीर्षक </string>
+    <string name="Reason">कारण </string>
+    <string name="selectDateError">कृपया कार्य दिनांक का चयन करें </string>
+    <string name="selectTitleError">कृपया कार्य शीर्षक दर्ज करें</string>
+    <!--TASK-->
+
+    <!--LEAVE-->
+    <string name="AppliedDate">आवेदन की तिथि</string>
+    <string name="fromDate">तारीख से</string>
+    <string name="fromTime">समय से</string>
+    <string name="toTime">समय पर</string>
+    <string name="applyDateError"> कृपया आवेदन की तिथि चुनें </string>
+    <string name="fromDateError">कृपया तारीख से चयन करें </string>
+    <string name="toDateError"> कृपया तारीख से चयन करें </string>
+    <string name="toDate">To Date</string>
+    <string name="createNewLeave">छुट्टी आवेदन जोड़ें </string>
+    <!--LEAVE-->
+
+    <!--FORGOT PASSWORD-->
+    <string name="iAm">मैं हूँ</string>
+    <string name="student">छात्र</string>
+    <string name="parent">माता-पिता</string>
+    <!--FORGOT PASSWORD-->
+
+    <!--ABOUT-->
+    <string name="phone">फ़ोन</string>
+    <string name="schoolCode">स्कूल कोड</string>
+    <string name="currentSession">सत्र</string>
+    <string name="sessionStartMonth">सत्र शुरू माह</string>
+    <!--ABOUT-->
+
+    <string name="privacyPolicy">Privacy Policy</string>
+
+</resources>

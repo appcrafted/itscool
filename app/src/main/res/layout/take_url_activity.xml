@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPassword"
+    android:background="@drawable/img_login_background"
+    >
+
+
+    <ImageView
+        android:id="@+id/takeurl_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_small"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/dataLay_takeUrl"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/dataLay_takeUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/layout_urlET_takeUrl"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/edittext_stlye"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/icon_username_login"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_web_yellow"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:padding="5dp"
+                android:tint="@color/textHeading"
+                />
+
+            <EditText
+                android:id="@+id/et_domain_takeUrl"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="@string/domainHead"
+                android:textColorHint="@color/hintDark"
+                android:textSize="@dimen/primaryText"
+                android:textColor="@color/textHeading"
+                android:background="@color/transparent"
+                android:singleLine="true"
+                android:inputType="textUri"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_submit_takeUrl"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/layout_urlET_takeUrl"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="@string/submit"
+            android:background="@drawable/style_button" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

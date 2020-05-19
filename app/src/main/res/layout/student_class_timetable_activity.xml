@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/card_end"
+                android:layout_marginStart="@dimen/card_start"
+                android:layout_marginTop="@dimen/card_top"
+                android:layout_marginBottom="@dimen/card_bottom"
+              >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:visibility="visible"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/classTimetable_mondayHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="@dimen/primaryText"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        android:text="@string/monday" />
+
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/mondaylayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.50"
+                            android:text="@string/time"
+                            />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.70"
+                            android:text="@string/subject"
+                            />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.80"
+                            android:gravity="end"
+                            android:text="@string/hostelRoomNo"
+                            />
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/classTimetable_mondayList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:fastScrollEnabled="false"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp">
+                    </android.support.v7.widget.RecyclerView>
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:layout_margin="10dp">
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="No Data !!!!" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardPreventCornerOverlap="false"
+                android:elevation="8dp"
+                android:clipToPadding="false"
+                android:layout_marginEnd="@dimen/card_end"
+                android:layout_marginStart="@dimen/card_start"
+                android:layout_marginTop="@dimen/card_top"
+                android:layout_marginBottom="@dimen/card_bottom"
+                android:padding="10dp"
+                app:cardCornerRadius="0dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:visibility="visible"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/classTimetable_tuesdayHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="@dimen/primaryText"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        android:text="@string/tuesday" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tuesdaylayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.50"
+                            android:text="@string/time"
+                            />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.70"
+                            android:text="@string/subject"
+                            />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.80"
+                            android:gravity="end"
+                            android:text="@string/hostelRoomNo"
+                            />
+
+                    </LinearLayout>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/classTimetable_tuesdayList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:fastScrollEnabled="false"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        >
+
+
+                    </android.support.v7.widget.RecyclerView>
+
+                </LinearLayout>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardPreventCornerOverlap="false"
+                android:elevation="8dp"
+                android:clipToPadding="false"
+                android:layout_marginEnd="@dimen/card_end"
+                android:layout_marginStart="@dimen/card_start"
+                android:layout_marginTop="@dimen/card_top"
+                android:layout_marginBottom="@dimen/card_bottom"
+                android:padding="10dp"
+                app:cardCornerRadius="0dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:visibility="visible"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/classTimetable_wednesdayHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="@dimen/primaryText"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        android:text="@string/wednesday" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wednesdaylayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/adapter_student_classTimetable_timeTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.50"
+                            android:text="@string/time"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            />
+
+                        <TextView
+                            android:id="@+id/adapter_student_classTimetable_subjectTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.70"
+                            android:text="@string/subject"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            />
+
+                        <TextView
+                            android:id="@+id/adapter_student_classTimetable_roomNoTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.80"
+                            android:gravity="end"
+                            android:text="@string/hostelRoomNo"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            />
+
+                    </LinearLayout>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/classTimetable_wednesdayList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:fastScrollEnabled="false"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        >
+                    </android.support.v7.widget.RecyclerView>
+
+                </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardPreventCornerOverlap="false"
+                android:elevation="8dp"
+                android:clipToPadding="false"
+                android:layout_marginEnd="@dimen/card_end"
+                android:layout_marginStart="@dimen/card_start"
+                android:layout_marginTop="@dimen/card_top"
+                android:layout_marginBottom="@dimen/card_bottom"
+                android:padding="10dp"
+                app:cardCornerRadius="0dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:visibility="visible"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/classTimetable_thursdayHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="@dimen/primaryText"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        android:text="@string/thursday" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/thursdaylayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.50"
+                            android:text="@string/time"
+                            />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.70"
+                            android:text="@string/subject"
+                            />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.80"
+                            android:gravity="end"
+                            android:text="@string/hostelRoomNo"
+                            />
+
+                    </LinearLayout>
+
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/classTimetable_thursdayList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:fastScrollEnabled="false"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+
+                    </android.support.v7.widget.RecyclerView>
+
+                </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardPreventCornerOverlap="false"
+                android:elevation="8dp"
+                android:clipToPadding="false"
+                android:layout_marginEnd="@dimen/card_end"
+                android:layout_marginStart="@dimen/card_start"
+                android:layout_marginTop="@dimen/card_top"
+                android:layout_marginBottom="@dimen/card_bottom"
+                android:padding="10dp"
+                app:cardCornerRadius="0dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:visibility="visible"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/classTimetable_fridayHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="@dimen/primaryText"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        android:text="@string/friday" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fridaylayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.50"
+                            android:text="@string/time"
+                            />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.70"
+                            android:text="@string/subject" />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.80"
+                            android:gravity="end"
+                            android:text="@string/hostelRoomNo" />
+
+                    </LinearLayout>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/classTimetable_fridayList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:fastScrollEnabled="false"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+
+                    </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardPreventCornerOverlap="false"
+                android:elevation="8dp"
+                android:clipToPadding="false"
+                android:layout_marginEnd="@dimen/card_end"
+                android:layout_marginStart="@dimen/card_start"
+                android:layout_marginTop="@dimen/card_top"
+                android:layout_marginBottom="@dimen/card_bottom"
+                android:padding="10dp"
+                app:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:visibility="visible"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/classTimetable_saturdayHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="@dimen/primaryText"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        android:text="@string/saturday" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/saturdaylayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.50"
+                            android:text="@string/time" />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.70"
+                            android:text="@string/subject" />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.80"
+                            android:gravity="end"
+                            android:text="@string/hostelRoomNo" />
+
+                    </LinearLayout>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/classTimetable_saturdayList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:fastScrollEnabled="false"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                    </android.support.v7.widget.RecyclerView>
+
+                </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardPreventCornerOverlap="false"
+                android:elevation="8dp"
+                android:clipToPadding="false"
+                android:layout_marginEnd="@dimen/card_end"
+                android:layout_marginStart="@dimen/card_start"
+                android:layout_marginTop="@dimen/card_top"
+                android:layout_marginBottom="@dimen/card_bottom"
+                android:padding="10dp"
+                app:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:visibility="visible"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/classTimetable_sundayHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="@dimen/primaryText"
+                        android:textStyle="bold"
+                        android:textColor="@color/textHeading"
+                        android:text="@string/sunday" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sundaylayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.50"
+                            android:text="@string/time" />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.70"
+                            android:text="@string/subject" />
+
+                        <TextView
+                            android:textSize="@dimen/secondaryText"
+                            android:textStyle="bold"
+                            android:textColor="@color/textHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.80"
+                            android:gravity="end"
+                            android:text="@string/hostelRoomNo"
+                            />
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/classTimetable_sundayList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:fastScrollEnabled="false"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+
+                    </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
+

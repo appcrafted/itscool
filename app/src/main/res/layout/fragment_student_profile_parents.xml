@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:clickable="false"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CustomCardView">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.55"
+                    android:gravity="center"
+                    android:layout_gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/student_profile_parent_fatherImage"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/student_profile_parent_fatherHead"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/student_profile_parent_fatherImage"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/father"
+                        android:textSize="@dimen/primaryText"
+                        android:gravity="center"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="3"
+                        >
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_user"
+                            android:layout_weight="1"
+                            android:padding="6dp"
+                            />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_phone_filled"
+                            android:padding="4dp"
+                            android:layout_weight="1"
+                            />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_briefcase"
+                            android:padding="5dp"
+                            android:layout_weight="1"
+                            />
+
+                        <!--<ImageView-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:src="@drawable/ic_view"-->
+                        <!--android:layout_weight="1"-->
+                        <!--/>-->
+
+                        <!--<ImageView-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:src="@drawable/ic_view"-->
+                        <!--android:layout_weight="1"-->
+                        <!--/>-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_fatherName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_fatherContact"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_fatherOccupation"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--/>-->
+
+                        <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--/>-->
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CustomCardView">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.55"
+                    android:gravity="center"
+                    android:layout_gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/student_profile_parent_motherImage"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/student_profile_parent_motherHead"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/student_profile_parent_motherImage"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/mother"
+                        android:textSize="@dimen/primaryText"
+                        android:gravity="center"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="3"
+                        >
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_user"
+                            android:layout_weight="1"
+                            android:padding="6dp"
+                            />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_phone_filled"
+                            android:padding="4dp"
+                            android:layout_weight="1"
+                            />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_briefcase"
+                            android:padding="5dp"
+                            android:layout_weight="1"
+                            />
+
+                        <!--<ImageView-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:src="@drawable/ic_view"-->
+                        <!--android:layout_weight="1"-->
+                        <!--/>-->
+
+                        <!--<ImageView-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:src="@drawable/ic_view"-->
+                        <!--android:layout_weight="1"-->
+                        <!--/>-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_motherName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_motherContact"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_motherOccupation"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--/>-->
+
+                        <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--/>-->
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CustomCardView">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.55"
+                    android:gravity="center"
+                    android:layout_gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/student_profile_parent_guardianImage"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/student_profile_parent_guardianHead"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/student_profile_parent_guardianImage"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/guardian"
+                        android:textSize="@dimen/primaryText"
+                        android:gravity="center"
+                        android:textColor="@color/textHeading"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="6"
+                        >
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_user"
+                            android:layout_weight="1"
+                            android:padding="6dp"
+                            />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_phone_filled"
+                            android:layout_weight="1"
+                            android:padding="4dp"
+                            />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_briefcase"
+                            android:padding="5dp"
+                            android:layout_weight="1"
+                            />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:padding="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_relation"
+                            />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_email_filled"
+                            android:padding="5dp"
+                            android:layout_weight="1"
+                            />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_location"
+                            android:padding="5dp"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="6">
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_guardianName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_guardianContact"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_guardianOccupation"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_guardianRelation"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_guardianEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/student_profile_parent_guardianAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/secondaryText"
+                            android:textColor="@color/textHeading"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

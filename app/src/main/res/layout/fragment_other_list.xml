@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/pullToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+    android:id="@+id/previousSchool_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:padding="5dp"
+        android:textSize="@dimen/secondaryText"
+        android:textStyle="bold"
+        android:textColor="@color/textHeading"
+        android:text="@string/previousSchool"/>
+
+    <TextView
+        android:id="@+id/previousSchool"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:padding="5dp"
+        android:text="@string/empty"
+        android:textColor="@color/textHeading"
+        android:textSize="@dimen/secondaryText"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nationalIdNo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/nationalIdNo"/>
+
+        <TextView
+            android:id="@+id/nationalIdNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/localIdNo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/localIdNo"/>
+
+        <TextView
+            android:id="@+id/localIdNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bankAcNo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/bankAcNo"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bankAcNo"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bankName_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/bankName"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:id="@+id/bankName"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ifscCode_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/ifscCode"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:id="@+id/ifscCode"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/rte_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/rte"/>
+
+        <TextView
+            android:id="@+id/rte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/studentHouse_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/studentHouse"/>
+
+        <TextView
+            android:id="@+id/studentHouse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/vehicleRoute_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/vehicleRoute"/>
+
+        <TextView
+            android:id="@+id/vehicleRoute"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vehicleNo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/vehicleNo"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/vehicleNo"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/driverName_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/driverName"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/driverName"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/driverContact_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/driverContact"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/driverContact"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hostel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/hostel"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/hostel"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hostelRoomNo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/hostelRoomNo"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/hostelRoomNo"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hostelRoomType_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/hostelRoomType"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/hostelRoomType"
+            android:gravity="start"
+            android:padding="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textStyle="bold"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty" />
+
+    </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
