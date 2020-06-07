@@ -582,7 +582,7 @@ public final class R {
         public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f070056;
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f070057;
         public static final int abc_textfield_search_material = 0x7f070058;
-        public static final int bg_clickable = 0x7f070060;
+        public static final int bg_clickable = 0x7f07005f;
         public static final int design_fab_background = 0x7f070068;
         public static final int design_snackbar_background = 0x7f07006c;
         public static final int ic_apk_box = 0x7f07007a;

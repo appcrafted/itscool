@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
 MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:2:1-22:12
 MERGED from [com.android.support:design:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e97b91f22d931b83477a1c5de5700e0c/AndroidManifest.xml:17:1-22:12
@@ -48,25 +48,25 @@ MERGED from [com.android.support:interpolator:28.0.0] /root/.gradle/caches/trans
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d4eaad9264f213c4f6f6fdd12408301d/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6fee427ad7d761919bd2dd03d0da2b4e/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29765f22474d3c5a58242ca62df42a26/AndroidManifest.xml:17:1-22:12
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
 	package
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:3:5-38
-		INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
-		INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
-		INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
-		INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:5:5-85:19
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:5:5-85:19
 MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:13:5-20:19
 MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:13:5-20:19
 MERGED from [com.android.support:design:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/AndroidManifest.xml:22:5-20
@@ -100,263 +100,263 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /root/.gradle/cache
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4f442c0a4f2e7d6d940c8173f3b5071e/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:8:9-41
 	android:launchMode
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:9:9-44
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:9:9-44
 	android:roundIcon
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:10:9-47
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
 		ADDED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:14:9-35
 	android:icon
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:7:9-42
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:7:9-38
 	android:theme
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:12:9-40
 	android:usesCleartextTraffic
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:13:9-44
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:13:9-44
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:6:9-59
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:6:9-59
 activity#com.itscool.smartschool.students.NotificationList
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:14:9-95
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:14:9-95
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:14:19-83
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:14:19-83
 activity#com.itscool.smartschool.students.StudentOnlineExamQuestionsNew
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:15:9-99
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:15:9-99
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:15:19-96
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:15:19-96
 activity#com.itscool.smartschool.students.StudentOnlineExamResult
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:16:9-93
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:16:9-93
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:16:19-90
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:16:19-90
 activity#com.itscool.smartschool.students.StudentOnlineExam
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:17:9-87
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:17:9-87
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:17:19-84
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:17:19-84
 activity#com.itscool.smartschool.AboutSchool
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:18:9-72
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:18:9-72
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:18:19-69
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:18:19-69
 activity#com.itscool.smartschool.students.StudentTimeline
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:19:9-85
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:19:9-85
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:19:19-82
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:19:19-82
 activity#com.itscool.smartschool.students.StudentDocuments
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:20:9-86
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:20:9-86
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:20:19-83
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:20:19-83
 activity#com.itscool.smartschool.SplashActivity
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:21:9-27:20
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:21:19-72
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:21:19-72
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:22:13-26:29
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:25:27-74
 activity#com.itscool.smartschool.Login
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:28:9-66
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:28:9-66
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:28:19-63
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:28:19-63
 activity#com.itscool.smartschool.students.StudentProfile
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:29:9-84
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:29:9-84
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:29:19-81
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:29:19-81
 activity#com.itscool.smartschool.students.StudentProfileNew
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:30:9-87
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:30:9-87
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:30:19-84
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:30:19-84
 activity#com.itscool.smartschool.students.StudentProfileDetailsNew
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:31:9-94
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:31:9-94
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:31:19-91
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:31:19-91
 activity#com.itscool.smartschool.students.StudentUploadHomework
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:32:9-91
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:32:9-91
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:32:19-88
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:32:19-88
 activity#com.itscool.smartschool.ForgotPassword
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:33:9-75
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:33:9-75
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:33:19-72
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:33:19-72
 activity#com.itscool.smartschool.BaseActivity
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:34:9-73
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:34:9-73
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:34:19-70
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:34:19-70
 activity#com.itscool.smartschool.students.StudentFees
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:35:9-44:20
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:35:9-44:20
 	android:noHistory
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:36:13-37
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:35:19-78
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:35:19-78
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:student_fees
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:37:13-43:29
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:37:13-43:29
 action#android.intent.action.VIEW
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:38:17-69
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.DEFAULT
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:40:17-76
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:40:17-76
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:40:27-73
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:40:27-73
 data
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:42:17-55
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:42:17-55
 	android:scheme
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:42:23-52
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:42:23-52
 activity#com.itscool.smartschool.students.StudentNoticeBoard
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:45:9-88
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:45:9-88
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:45:19-85
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:45:19-85
 activity#com.itscool.smartschool.students.StudentExaminationList
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:46:9-92
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:46:9-92
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:46:19-89
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:46:19-89
 activity#com.itscool.smartschool.students.StudentReportCard_ExamListResult
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:47:9-102
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:47:9-102
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:47:19-99
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:47:19-99
 activity#com.itscool.smartschool.students.StudentSubjectList
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:48:9-88
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:48:9-88
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:48:19-85
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:48:19-85
 activity#com.itscool.smartschool.students.StudentChat
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:49:9-81
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:49:9-81
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:49:19-78
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:49:19-78
 activity#com.itscool.smartschool.students.StudentTeachersList
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:50:9-89
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:50:9-89
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:50:19-86
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:50:19-86
 activity#com.itscool.smartschool.students.StudentTransportRoutes
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:51:9-92
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:51:9-92
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:51:19-89
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:51:19-89
 activity#com.itscool.smartschool.students.StudentDownloads
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:52:9-86
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:52:9-86
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:52:19-83
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:52:19-83
 activity#com.itscool.smartschool.students.StudentAttendance
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:53:9-87
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:53:9-87
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:53:19-84
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:53:19-84
 activity#com.itscool.smartschool.students.StudentReportCard_ExamList
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:54:9-96
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:54:9-96
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:54:19-93
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:54:19-93
 activity#com.itscool.smartschool.students.StudentExamSchedule_ExamList
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:55:9-98
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:55:9-98
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:55:19-95
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:55:19-95
 activity#com.itscool.smartschool.students.StudentExamSchedule
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:56:9-89
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:56:9-89
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:56:19-86
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:56:19-86
 activity#com.itscool.smartschool.students.StudentHostel
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:57:9-83
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:57:9-83
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:57:19-80
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:57:19-80
 activity#com.itscool.smartschool.students.StudentLibraryBook
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:58:9-88
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:58:9-88
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:58:19-85
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:58:19-85
 activity#com.itscool.smartschool.students.StudentClassTimetable
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:59:9-91
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:59:9-91
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:59:19-88
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:59:19-88
 activity#com.itscool.smartschool.students.StudentHomework
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:60:9-85
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:60:9-85
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:60:19-82
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:60:19-82
 activity#com.itscool.smartschool.students.StudentHomeworkDetails
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:61:9-92
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:61:9-92
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:61:19-89
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:61:19-89
 activity#com.itscool.smartschool.students.StudentLibraryBookIssued
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:62:9-94
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:62:9-94
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:62:19-91
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:62:19-91
 activity#com.itscool.smartschool.students.StudentAppyLeave
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:63:9-86
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:63:9-86
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:63:19-83
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:63:19-83
 activity#com.itscool.smartschool.students.StudentAddLeaveNew
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:64:9-88
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:64:9-88
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:64:19-85
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:64:19-85
 activity#com.itscool.smartschool.students.StudentAddLeave
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:65:9-85
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:65:9-85
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:65:19-82
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:65:19-82
 activity#com.itscool.smartschool.students.StudentEditLeave
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:66:9-86
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:66:9-86
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:66:19-83
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:66:19-83
 activity#com.itscool.smartschool.students.StudentEditLeaveNew
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:67:9-89
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:67:9-89
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:67:19-86
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:67:19-86
 activity#com.itscool.smartschool.TakeUrl
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:68:9-68
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:68:9-68
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:68:19-65
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:68:19-65
 activity#com.itscool.smartschool.students.StudentDashboard
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:69:9-71:77
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:69:9-71:77
 	android:configChanges
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:71:13-74
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:71:13-74
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:70:13-77
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:70:13-77
 activity#com.itscool.smartschool.students.StudentTasks
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:72:9-82
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:72:9-82
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:72:19-79
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:72:19-79
 activity#com.itscool.smartschool.students.Payment
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:73:9-77
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:73:9-77
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:73:19-74
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:73:19-74
 service#com.itscool.smartschool.utils.MyFirebaseMessagingService
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:75:9-79:19
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:75:9-79:19
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:75:18-89
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:75:18-89
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:76:13-78:29
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:76:13-78:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:77:17-78
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:77:17-78
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:77:25-75
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:77:25-75
 service#com.itscool.smartschool.utils.MyFirebaseInstanceIDService
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:80:9-84:19
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:80:9-84:19
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:80:18-90
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:80:18-90
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:81:13-83:29
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:81:13-83:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:82:17-80
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:82:17-80
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:82:25-77
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:82:25-77
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:86:5-73
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:86:5-73
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:86:22-70
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:86:22-70
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:87:5-81
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:87:5-81
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:87:22-78
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:87:22-78
 uses-permission#android.permission.CALL_PHONE
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:88:5-69
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:88:5-69
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:88:22-66
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:88:22-66
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:89:5-80
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:89:5-80
 MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:11:5-80
 MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:89:22-77
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:89:22-77
 uses-permission#android.permission.INTERNET
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:90:5-67
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:90:5-67
 MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:20:5-66
@@ -364,9 +364,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/c
 MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:90:22-64
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:90:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:91:5-79
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:91:5-79
 MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:21:5-78
@@ -374,15 +374,15 @@ MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/c
 MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:19:5-78
 MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:91:22-76
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:91:22-76
 uses-permission#android.permission.READ_CALENDAR
-ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:93:5-72
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:93:5-72
 	android:name
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:93:22-69
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:93:22-69
 uses-sdk
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:7:5-9:41
 MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/AndroidManifest.xml:20:5-44
@@ -471,16 +471,16 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /root/.gradle/caches/tr
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6fee427ad7d761919bd2dd03d0da2b4e/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29765f22474d3c5a58242ca62df42a26/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29765f22474d3c5a58242ca62df42a26/AndroidManifest.xml:20:5-44
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
-INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
-		INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
-		ADDED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
-		INJECTED from /root/Documents/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 activity#com.nbsp.materialfilepicker.ui.FilePickerActivity
 ADDED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:16:9-19:20
 	android:theme

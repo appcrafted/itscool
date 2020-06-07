@@ -1,625 +1,625 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:2:1-95:12
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:2:1-95:12
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:2:1-95:12
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:2:1-95:12
-MERGED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:2:1-22:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\0b90adfe1e0a34f9f2090e12619e3fea\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\50b26017e5d7af9e1604bf6e2d31be39\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\0c4045954fe8855d3b1ee6861a512d87\AndroidManifest.xml:16:1-30:12
-MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\443259024090a9df1fb55b4f5fcc0695\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:16:1-35:12
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:16:1-29:12
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:16:1-50:12
-MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fef0c227f9a29eda9baacd1822c61871\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\caa851cf30a40a7a62d44fd24f9205aa\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\5b3df6d83b475e5895d0bb3a21916461\AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\053c9ff9c9cb2511d73e1982954866dd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2ed13680aec92e88b84f08d58bc67c2f\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8190c89768cc87aab88694fcb133e27f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6b4993fc9f270746ad93832aae690ad5\AndroidManifest.xml:17:1-22:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\d073615fb0c57f63eb33e460d6973ffe\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\4adc525ccc097a901a6cc2d72140c8b2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.volley:volley:1.1.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\308fcde02b551dd53b506a9f7ea13cc1\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\beef69a992e77230edf2bc263db052a3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\cb23720dd1dfc1f17d39c73c87d02a5f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\dc0fcfb19a398ba3daa2d85d2a2ac8da\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\44d2a90074d513ebe1cb1203575bafa6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\addf55d9cd73ef8b36566f3aad5be11d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\53f7fedb0f125114e20c7d1482f12405\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\41b96a0d62f6224e6ff724a0fea46dc5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\921c204e3921a304cf7ba5055ec98506\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\2bdc019714ddc55231f04af921f4616d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\522dce92bf4973fea926e19851b55af4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\17481e1beb65b9779573cf92c439389f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\5a95c4420d03bc6728b0a7663fe551cf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\476577cdb263a4ccdfad5bee7a419f65\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\1f1695fdb01ea105678e5f65804ce9d0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\23da8c43b6831651768fc55c157fa2a6\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d38dabd027d94d372dfec0fd4bb1c08c\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\233032fffef18104d711f365600e5d0a\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f1a118d869acbf8498cb5ef3e680e58a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\af013c7d3c8ac46eded3f4a7cfe6850e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\2e1166099a9e77d6aea90dd9f9040a44\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\db7a68aa0668b492f6025b3404566c44\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0ee270f0b1bf4bf89a13e6b693f7f9dd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f9cddf1bba03d1839535c9c9ae2bcbe6\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\5b70d913886b86aa429552dcd75856fb\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4bf21ab801b0771db58d5cc36be879ef\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cc242da1768cc16729139784ae7a898b\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:2:1-95:12
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:2:1-95:12
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:2:1-95:12
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:design:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e97b91f22d931b83477a1c5de5700e0c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/f3d977aa957b6e5efe7b2932d4ee124a/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.firebase:firebase-core:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/475a8065a59a889b4d122da7b450359a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/5441900d36b8d50028be419482e2b9a7/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/eb9d5f152ecc3714a3d507659adc017b/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/038102ec542b97a4e2e5c9c38bbd2866/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/f0032533b7bb1b3616c5fc216104e82a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9f7e09871343d9b4fa77f1b0fd400da1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d9204a2031b37c1aeac1d955567a3b29/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b886ed28a685e012276098f5c70d06d0/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /root/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/6790c0a97ce9030367fd71eaabdf8bb9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/d481df7bbddbccb25663ea85ce1f46d9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/15b2e57e7f817b86d57df8e7392da415/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/1271179c3b0833d929f410f5cc695aeb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/0cee27d4674af3a3d45036da458ea155/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/305459c4860980b1f4a1127051f1a457/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/421c8851e3a08a84f614c88dcd1b10c3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/bb4426529ecc3241f076728f5ae62bfb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/79c491c07cf1130eb79a568544563283/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c5b3ff1a00dc6a676aebba822022ce7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/5ffe37ede09536738114671867da3270/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b4f82480b51294b94e0d74486189b0a3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5a646f86d1d7ab839098bb711d68fa5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ef7875041b00ed48ece117c931013212/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/7027fa570d602389e77daa64ac3b4b1a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/348b4df6a823a3e5ff95ad26f4ccf586/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/44fd3bdbf2128e329c3cee47a605312c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4f442c0a4f2e7d6d940c8173f3b5071e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3492e2b2dd3f76d9058b96a3a98725da/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/cd279fab2babb9d267d18d91f9ec0e81/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ef72fe851b1aae5edfdaea5217fd196a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/332a66a1c925a02f20b0f6b23f7c7526/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9b92efd73ab948105393018762c446e5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a0ad65f40cebf49f16f9562ac17d1081/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5bdc541c9ef54a09de1f3cabb79ed7d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/2b90bd0b4f9b2ac7a363af2fd3ee23fe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d4eaad9264f213c4f6f6fdd12408301d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6fee427ad7d761919bd2dd03d0da2b4e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29765f22474d3c5a58242ca62df42a26/AndroidManifest.xml:17:1-22:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
 	package
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:2:1-95:12
-		INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:2:1-95:12
-		INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:1-95:12
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:5:5-85:19
-MERGED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:13:5-20:19
-MERGED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:13:5-20:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\0b90adfe1e0a34f9f2090e12619e3fea\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\0b90adfe1e0a34f9f2090e12619e3fea\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\0c4045954fe8855d3b1ee6861a512d87\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\0c4045954fe8855d3b1ee6861a512d87\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\443259024090a9df1fb55b4f5fcc0695\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\443259024090a9df1fb55b4f5fcc0695\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fef0c227f9a29eda9baacd1822c61871\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fef0c227f9a29eda9baacd1822c61871\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\caa851cf30a40a7a62d44fd24f9205aa\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\caa851cf30a40a7a62d44fd24f9205aa\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\5b3df6d83b475e5895d0bb3a21916461\AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\5b3df6d83b475e5895d0bb3a21916461\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2ed13680aec92e88b84f08d58bc67c2f\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2ed13680aec92e88b84f08d58bc67c2f\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\d073615fb0c57f63eb33e460d6973ffe\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\d073615fb0c57f63eb33e460d6973ffe\AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\308fcde02b551dd53b506a9f7ea13cc1\AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\308fcde02b551dd53b506a9f7ea13cc1\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\23da8c43b6831651768fc55c157fa2a6\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\23da8c43b6831651768fc55c157fa2a6\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d38dabd027d94d372dfec0fd4bb1c08c\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d38dabd027d94d372dfec0fd4bb1c08c\AndroidManifest.xml:22:5-23:19
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:5:5-85:19
+MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:13:5-20:19
+MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:13:5-20:19
+MERGED from [com.android.support:design:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/f3d977aa957b6e5efe7b2932d4ee124a/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/f3d977aa957b6e5efe7b2932d4ee124a/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-core:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/475a8065a59a889b4d122da7b450359a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/475a8065a59a889b4d122da7b450359a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/5441900d36b8d50028be419482e2b9a7/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/5441900d36b8d50028be419482e2b9a7/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/eb9d5f152ecc3714a3d507659adc017b/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/eb9d5f152ecc3714a3d507659adc017b/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/038102ec542b97a4e2e5c9c38bbd2866/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/038102ec542b97a4e2e5c9c38bbd2866/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9f7e09871343d9b4fa77f1b0fd400da1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9f7e09871343d9b4fa77f1b0fd400da1/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /root/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/6790c0a97ce9030367fd71eaabdf8bb9/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /root/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/6790c0a97ce9030367fd71eaabdf8bb9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/15b2e57e7f817b86d57df8e7392da415/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/15b2e57e7f817b86d57df8e7392da415/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4f442c0a4f2e7d6d940c8173f3b5071e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4f442c0a4f2e7d6d940c8173f3b5071e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3492e2b2dd3f76d9058b96a3a98725da/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3492e2b2dd3f76d9058b96a3a98725da/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\23da8c43b6831651768fc55c157fa2a6\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4f442c0a4f2e7d6d940c8173f3b5071e/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:8:9-41
 	android:launchMode
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:9:9-44
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:9:9-44
 	android:roundIcon
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:10:9-47
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:14:9-35
+		ADDED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:14:9-35
 	android:icon
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:7:9-42
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:7:9-38
 	android:theme
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:12:9-40
 	android:usesCleartextTraffic
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:13:9-44
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:13:9-44
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:6:9-36
-activity#com.qdocs.smartschool.students.NotificationList
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:14:9-72
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:6:9-59
+activity#com.itscool.smartschool.students.NotificationList
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:14:9-95
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:14:19-60
-activity#com.qdocs.smartschool.students.StudentOnlineExamQuestionsNew
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:15:9-76
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:14:19-83
+activity#com.itscool.smartschool.students.StudentOnlineExamQuestionsNew
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:15:9-99
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:15:19-73
-activity#com.qdocs.smartschool.students.StudentOnlineExamResult
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:16:9-70
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:15:19-96
+activity#com.itscool.smartschool.students.StudentOnlineExamResult
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:16:9-93
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:16:19-67
-activity#com.qdocs.smartschool.students.StudentOnlineExam
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:17:9-64
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:16:19-90
+activity#com.itscool.smartschool.students.StudentOnlineExam
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:17:9-87
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:17:19-61
-activity#com.qdocs.smartschool.AboutSchool
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:18:9-49
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:17:19-84
+activity#com.itscool.smartschool.AboutSchool
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:18:9-72
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:18:19-46
-activity#com.qdocs.smartschool.students.StudentTimeline
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:19:9-62
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:18:19-69
+activity#com.itscool.smartschool.students.StudentTimeline
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:19:9-85
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:19:19-59
-activity#com.qdocs.smartschool.students.StudentDocuments
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:20:9-63
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:19:19-82
+activity#com.itscool.smartschool.students.StudentDocuments
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:20:9-86
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:20:19-60
-activity#com.qdocs.smartschool.SplashActivity
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:21:9-27:20
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:20:19-83
+activity#com.itscool.smartschool.SplashActivity
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:21:19-49
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:21:19-72
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:25:27-74
-activity#com.qdocs.smartschool.Login
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:28:9-43
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.itscool.smartschool.Login
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:28:9-66
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:28:19-40
-activity#com.qdocs.smartschool.students.StudentProfile
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:29:9-61
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:28:19-63
+activity#com.itscool.smartschool.students.StudentProfile
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:29:9-84
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:29:19-58
-activity#com.qdocs.smartschool.students.StudentProfileNew
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:30:9-64
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:29:19-81
+activity#com.itscool.smartschool.students.StudentProfileNew
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:30:9-87
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:30:19-61
-activity#com.qdocs.smartschool.students.StudentProfileDetailsNew
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:31:9-71
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:30:19-84
+activity#com.itscool.smartschool.students.StudentProfileDetailsNew
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:31:9-94
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:31:19-68
-activity#com.qdocs.smartschool.students.StudentUploadHomework
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:32:9-68
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:31:19-91
+activity#com.itscool.smartschool.students.StudentUploadHomework
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:32:9-91
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:32:19-65
-activity#com.qdocs.smartschool.ForgotPassword
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:33:9-52
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:32:19-88
+activity#com.itscool.smartschool.ForgotPassword
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:33:9-75
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:33:19-49
-activity#com.qdocs.smartschool.BaseActivity
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:34:9-50
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:33:19-72
+activity#com.itscool.smartschool.BaseActivity
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:34:9-73
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:34:19-47
-activity#com.qdocs.smartschool.students.StudentFees
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:35:9-44:20
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:34:19-70
+activity#com.itscool.smartschool.students.StudentFees
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:35:9-44:20
 	android:noHistory
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:35:19-55
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:35:19-78
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:student_fees
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:37:13-43:29
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:37:13-43:29
 action#android.intent.action.VIEW
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:38:17-69
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:38:25-66
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:40:17-76
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:40:17-76
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:40:27-73
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:40:27-73
 data
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:42:17-55
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:42:17-55
 	android:scheme
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:42:23-52
-activity#com.qdocs.smartschool.students.StudentNoticeBoard
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:45:9-65
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:42:23-52
+activity#com.itscool.smartschool.students.StudentNoticeBoard
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:45:9-88
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:45:19-62
-activity#com.qdocs.smartschool.students.StudentExaminationList
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:46:9-69
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:45:19-85
+activity#com.itscool.smartschool.students.StudentExaminationList
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:46:9-92
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:46:19-66
-activity#com.qdocs.smartschool.students.StudentReportCard_ExamListResult
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:47:9-79
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:46:19-89
+activity#com.itscool.smartschool.students.StudentReportCard_ExamListResult
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:47:9-102
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:47:19-76
-activity#com.qdocs.smartschool.students.StudentSubjectList
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:48:9-65
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:47:19-99
+activity#com.itscool.smartschool.students.StudentSubjectList
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:48:9-88
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:48:19-62
-activity#com.qdocs.smartschool.students.StudentChat
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:49:9-58
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:48:19-85
+activity#com.itscool.smartschool.students.StudentChat
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:49:9-81
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:49:19-55
-activity#com.qdocs.smartschool.students.StudentTeachersList
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:50:9-66
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:49:19-78
+activity#com.itscool.smartschool.students.StudentTeachersList
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:50:9-89
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:50:19-63
-activity#com.qdocs.smartschool.students.StudentTransportRoutes
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:51:9-69
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:50:19-86
+activity#com.itscool.smartschool.students.StudentTransportRoutes
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:51:9-92
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:51:19-66
-activity#com.qdocs.smartschool.students.StudentDownloads
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:52:9-63
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:51:19-89
+activity#com.itscool.smartschool.students.StudentDownloads
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:52:9-86
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:52:19-60
-activity#com.qdocs.smartschool.students.StudentAttendance
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:53:9-64
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:52:19-83
+activity#com.itscool.smartschool.students.StudentAttendance
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:53:9-87
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:53:19-61
-activity#com.qdocs.smartschool.students.StudentReportCard_ExamList
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:54:9-73
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:53:19-84
+activity#com.itscool.smartschool.students.StudentReportCard_ExamList
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:54:9-96
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:54:19-70
-activity#com.qdocs.smartschool.students.StudentExamSchedule_ExamList
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:55:9-75
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:54:19-93
+activity#com.itscool.smartschool.students.StudentExamSchedule_ExamList
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:55:9-98
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:55:19-72
-activity#com.qdocs.smartschool.students.StudentExamSchedule
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:56:9-66
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:55:19-95
+activity#com.itscool.smartschool.students.StudentExamSchedule
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:56:9-89
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:56:19-63
-activity#com.qdocs.smartschool.students.StudentHostel
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:57:9-60
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:56:19-86
+activity#com.itscool.smartschool.students.StudentHostel
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:57:9-83
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:57:19-57
-activity#com.qdocs.smartschool.students.StudentLibraryBook
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:58:9-65
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:57:19-80
+activity#com.itscool.smartschool.students.StudentLibraryBook
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:58:9-88
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:58:19-62
-activity#com.qdocs.smartschool.students.StudentClassTimetable
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:59:9-68
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:58:19-85
+activity#com.itscool.smartschool.students.StudentClassTimetable
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:59:9-91
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:59:19-65
-activity#com.qdocs.smartschool.students.StudentHomework
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:60:9-62
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:59:19-88
+activity#com.itscool.smartschool.students.StudentHomework
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:60:9-85
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:60:19-59
-activity#com.qdocs.smartschool.students.StudentHomeworkDetails
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:61:9-69
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:60:19-82
+activity#com.itscool.smartschool.students.StudentHomeworkDetails
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:61:9-92
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:61:19-66
-activity#com.qdocs.smartschool.students.StudentLibraryBookIssued
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:62:9-71
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:61:19-89
+activity#com.itscool.smartschool.students.StudentLibraryBookIssued
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:62:9-94
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:62:19-68
-activity#com.qdocs.smartschool.students.StudentAppyLeave
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:63:9-63
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:62:19-91
+activity#com.itscool.smartschool.students.StudentAppyLeave
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:63:9-86
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:63:19-60
-activity#com.qdocs.smartschool.students.StudentAddLeaveNew
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:64:9-65
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:63:19-83
+activity#com.itscool.smartschool.students.StudentAddLeaveNew
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:64:9-88
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:64:19-62
-activity#com.qdocs.smartschool.students.StudentAddLeave
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:65:9-62
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:64:19-85
+activity#com.itscool.smartschool.students.StudentAddLeave
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:65:9-85
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:65:19-59
-activity#com.qdocs.smartschool.students.StudentEditLeave
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:66:9-63
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:65:19-82
+activity#com.itscool.smartschool.students.StudentEditLeave
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:66:9-86
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:66:19-60
-activity#com.qdocs.smartschool.students.StudentEditLeaveNew
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:67:9-66
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:66:19-83
+activity#com.itscool.smartschool.students.StudentEditLeaveNew
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:67:9-89
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:67:19-63
-activity#com.qdocs.smartschool.TakeUrl
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:68:9-45
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:67:19-86
+activity#com.itscool.smartschool.TakeUrl
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:68:9-68
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:68:19-42
-activity#com.qdocs.smartschool.students.StudentDashboard
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:69:9-71:77
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:68:19-65
+activity#com.itscool.smartschool.students.StudentDashboard
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:69:9-71:77
 	android:configChanges
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:71:13-74
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:71:13-74
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:70:13-54
-activity#com.qdocs.smartschool.students.StudentTasks
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:72:9-59
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:70:13-77
+activity#com.itscool.smartschool.students.StudentTasks
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:72:9-82
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:72:19-56
-activity#com.qdocs.smartschool.students.Payment
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:73:9-54
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:72:19-79
+activity#com.itscool.smartschool.students.Payment
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:73:9-77
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:73:19-51
-service#com.qdocs.smartschool.utils.MyFirebaseMessagingService
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:75:9-79:19
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:73:19-74
+service#com.itscool.smartschool.utils.MyFirebaseMessagingService
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:75:9-79:19
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:75:18-66
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:75:18-89
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:76:13-78:29
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:76:13-78:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:77:17-78
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:77:17-78
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:77:25-75
-service#com.qdocs.smartschool.utils.MyFirebaseInstanceIDService
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:80:9-84:19
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:77:25-75
+service#com.itscool.smartschool.utils.MyFirebaseInstanceIDService
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:80:9-84:19
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:80:18-67
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:80:18-90
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:81:13-83:29
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:81:13-83:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:82:17-80
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:82:17-80
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:82:25-77
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:82:25-77
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:86:5-73
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:86:5-73
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:86:22-70
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:86:22-70
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:87:5-81
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:87:5-81
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:87:22-78
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:87:22-78
 uses-permission#android.permission.CALL_PHONE
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:88:5-69
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:88:5-69
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:88:22-66
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:88:22-66
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:89:5-80
-MERGED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:11:5-80
-MERGED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:11:5-80
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:89:5-80
+MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:11:5-80
+MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:89:22-77
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:89:22-77
 uses-permission#android.permission.INTERNET
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:90:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:20:5-66
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:90:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:90:22-64
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:90:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:91:5-79
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:19:5-78
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:91:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:91:22-76
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:91:22-76
 uses-permission#android.permission.READ_CALENDAR
-ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:93:5-72
+ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:93:5-72
 	android:name
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml:93:22-69
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml:93:22-69
 uses-sdk
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
-MERGED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:7:5-9:41
-MERGED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\0b90adfe1e0a34f9f2090e12619e3fea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\0b90adfe1e0a34f9f2090e12619e3fea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\50b26017e5d7af9e1604bf6e2d31be39\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\50b26017e5d7af9e1604bf6e2d31be39\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\0c4045954fe8855d3b1ee6861a512d87\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\0c4045954fe8855d3b1ee6861a512d87\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\443259024090a9df1fb55b4f5fcc0695\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\443259024090a9df1fb55b4f5fcc0695\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fef0c227f9a29eda9baacd1822c61871\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fef0c227f9a29eda9baacd1822c61871\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\caa851cf30a40a7a62d44fd24f9205aa\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\caa851cf30a40a7a62d44fd24f9205aa\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\5b3df6d83b475e5895d0bb3a21916461\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\5b3df6d83b475e5895d0bb3a21916461\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\053c9ff9c9cb2511d73e1982954866dd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\053c9ff9c9cb2511d73e1982954866dd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2ed13680aec92e88b84f08d58bc67c2f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2ed13680aec92e88b84f08d58bc67c2f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8190c89768cc87aab88694fcb133e27f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8190c89768cc87aab88694fcb133e27f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6b4993fc9f270746ad93832aae690ad5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6b4993fc9f270746ad93832aae690ad5\AndroidManifest.xml:20:5-44
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\d073615fb0c57f63eb33e460d6973ffe\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\d073615fb0c57f63eb33e460d6973ffe\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\4adc525ccc097a901a6cc2d72140c8b2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\4adc525ccc097a901a6cc2d72140c8b2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.volley:volley:1.1.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\308fcde02b551dd53b506a9f7ea13cc1\AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.1.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\308fcde02b551dd53b506a9f7ea13cc1\AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\beef69a992e77230edf2bc263db052a3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\beef69a992e77230edf2bc263db052a3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\cb23720dd1dfc1f17d39c73c87d02a5f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\cb23720dd1dfc1f17d39c73c87d02a5f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\dc0fcfb19a398ba3daa2d85d2a2ac8da\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\dc0fcfb19a398ba3daa2d85d2a2ac8da\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\44d2a90074d513ebe1cb1203575bafa6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\44d2a90074d513ebe1cb1203575bafa6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\addf55d9cd73ef8b36566f3aad5be11d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\addf55d9cd73ef8b36566f3aad5be11d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\53f7fedb0f125114e20c7d1482f12405\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\53f7fedb0f125114e20c7d1482f12405\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\41b96a0d62f6224e6ff724a0fea46dc5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\41b96a0d62f6224e6ff724a0fea46dc5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\921c204e3921a304cf7ba5055ec98506\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\921c204e3921a304cf7ba5055ec98506\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\2bdc019714ddc55231f04af921f4616d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\2bdc019714ddc55231f04af921f4616d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\522dce92bf4973fea926e19851b55af4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\522dce92bf4973fea926e19851b55af4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\17481e1beb65b9779573cf92c439389f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\17481e1beb65b9779573cf92c439389f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\5a95c4420d03bc6728b0a7663fe551cf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\5a95c4420d03bc6728b0a7663fe551cf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\476577cdb263a4ccdfad5bee7a419f65\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\476577cdb263a4ccdfad5bee7a419f65\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\1f1695fdb01ea105678e5f65804ce9d0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\1f1695fdb01ea105678e5f65804ce9d0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\23da8c43b6831651768fc55c157fa2a6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\23da8c43b6831651768fc55c157fa2a6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d38dabd027d94d372dfec0fd4bb1c08c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d38dabd027d94d372dfec0fd4bb1c08c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\233032fffef18104d711f365600e5d0a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\233032fffef18104d711f365600e5d0a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f1a118d869acbf8498cb5ef3e680e58a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f1a118d869acbf8498cb5ef3e680e58a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\af013c7d3c8ac46eded3f4a7cfe6850e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\af013c7d3c8ac46eded3f4a7cfe6850e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\2e1166099a9e77d6aea90dd9f9040a44\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\2e1166099a9e77d6aea90dd9f9040a44\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\db7a68aa0668b492f6025b3404566c44\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\db7a68aa0668b492f6025b3404566c44\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0ee270f0b1bf4bf89a13e6b693f7f9dd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0ee270f0b1bf4bf89a13e6b693f7f9dd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f9cddf1bba03d1839535c9c9ae2bcbe6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f9cddf1bba03d1839535c9c9ae2bcbe6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\5b70d913886b86aa429552dcd75856fb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\5b70d913886b86aa429552dcd75856fb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4bf21ab801b0771db58d5cc36be879ef\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4bf21ab801b0771db58d5cc36be879ef\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cc242da1768cc16729139784ae7a898b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cc242da1768cc16729139784ae7a898b\AndroidManifest.xml:20:5-44
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
-INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e97b91f22d931b83477a1c5de5700e0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e97b91f22d931b83477a1c5de5700e0c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/f3d977aa957b6e5efe7b2932d4ee124a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/f3d977aa957b6e5efe7b2932d4ee124a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/475a8065a59a889b4d122da7b450359a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/475a8065a59a889b4d122da7b450359a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/5441900d36b8d50028be419482e2b9a7/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/5441900d36b8d50028be419482e2b9a7/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/eb9d5f152ecc3714a3d507659adc017b/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/eb9d5f152ecc3714a3d507659adc017b/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/038102ec542b97a4e2e5c9c38bbd2866/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/038102ec542b97a4e2e5c9c38bbd2866/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/f0032533b7bb1b3616c5fc216104e82a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/f0032533b7bb1b3616c5fc216104e82a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9f7e09871343d9b4fa77f1b0fd400da1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9f7e09871343d9b4fa77f1b0fd400da1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d9204a2031b37c1aeac1d955567a3b29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d9204a2031b37c1aeac1d955567a3b29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b886ed28a685e012276098f5c70d06d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b886ed28a685e012276098f5c70d06d0/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /root/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/6790c0a97ce9030367fd71eaabdf8bb9/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /root/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/6790c0a97ce9030367fd71eaabdf8bb9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/d481df7bbddbccb25663ea85ce1f46d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/d481df7bbddbccb25663ea85ce1f46d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/15b2e57e7f817b86d57df8e7392da415/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/15b2e57e7f817b86d57df8e7392da415/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/1271179c3b0833d929f410f5cc695aeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/1271179c3b0833d929f410f5cc695aeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/0cee27d4674af3a3d45036da458ea155/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/0cee27d4674af3a3d45036da458ea155/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/305459c4860980b1f4a1127051f1a457/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/305459c4860980b1f4a1127051f1a457/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/421c8851e3a08a84f614c88dcd1b10c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/421c8851e3a08a84f614c88dcd1b10c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/bb4426529ecc3241f076728f5ae62bfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/bb4426529ecc3241f076728f5ae62bfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/79c491c07cf1130eb79a568544563283/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/79c491c07cf1130eb79a568544563283/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c5b3ff1a00dc6a676aebba822022ce7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c5b3ff1a00dc6a676aebba822022ce7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/5ffe37ede09536738114671867da3270/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/5ffe37ede09536738114671867da3270/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b4f82480b51294b94e0d74486189b0a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b4f82480b51294b94e0d74486189b0a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5a646f86d1d7ab839098bb711d68fa5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5a646f86d1d7ab839098bb711d68fa5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ef7875041b00ed48ece117c931013212/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ef7875041b00ed48ece117c931013212/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/7027fa570d602389e77daa64ac3b4b1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/7027fa570d602389e77daa64ac3b4b1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/348b4df6a823a3e5ff95ad26f4ccf586/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/348b4df6a823a3e5ff95ad26f4ccf586/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/44fd3bdbf2128e329c3cee47a605312c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/44fd3bdbf2128e329c3cee47a605312c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4f442c0a4f2e7d6d940c8173f3b5071e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4f442c0a4f2e7d6d940c8173f3b5071e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3492e2b2dd3f76d9058b96a3a98725da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3492e2b2dd3f76d9058b96a3a98725da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/cd279fab2babb9d267d18d91f9ec0e81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/cd279fab2babb9d267d18d91f9ec0e81/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ef72fe851b1aae5edfdaea5217fd196a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ef72fe851b1aae5edfdaea5217fd196a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/332a66a1c925a02f20b0f6b23f7c7526/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/332a66a1c925a02f20b0f6b23f7c7526/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9b92efd73ab948105393018762c446e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9b92efd73ab948105393018762c446e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a0ad65f40cebf49f16f9562ac17d1081/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a0ad65f40cebf49f16f9562ac17d1081/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5bdc541c9ef54a09de1f3cabb79ed7d0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5bdc541c9ef54a09de1f3cabb79ed7d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/2b90bd0b4f9b2ac7a363af2fd3ee23fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /root/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/2b90bd0b4f9b2ac7a363af2fd3ee23fe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d4eaad9264f213c4f6f6fdd12408301d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d4eaad9264f213c4f6f6fdd12408301d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6fee427ad7d761919bd2dd03d0da2b4e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6fee427ad7d761919bd2dd03d0da2b4e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29765f22474d3c5a58242ca62df42a26/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29765f22474d3c5a58242ca62df42a26/AndroidManifest.xml:20:5-44
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
-		ADDED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\SmartSchoolApp\SmartSchool\androapp\app\src\main\AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documents/sk/forme/itscool/schoolApp/app/src/main/AndroidManifest.xml
 activity#com.nbsp.materialfilepicker.ui.FilePickerActivity
-ADDED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:16:9-19:20
+ADDED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:16:9-19:20
 	android:theme
-		ADDED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:18:13-49
+		ADDED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:18:13-49
 	android:name
-		ADDED from [com.nbsp:library:1.09] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\library-1.09.aar\9d752f451628f969d511a2e80cb69fe9\AndroidManifest.xml:17:13-77
+		ADDED from [com.nbsp:library:1.09] /root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/AndroidManifest.xml:17:13-77
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\0c4045954fe8855d3b1ee6861a512d87\AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/f3d977aa957b6e5efe7b2932d4ee124a/AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\0c4045954fe8855d3b1ee6861a512d87\AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/f3d977aa957b6e5efe7b2932d4ee124a/AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\0c4045954fe8855d3b1ee6861a512d87\AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/f3d977aa957b6e5efe7b2932d4ee124a/AndroidManifest.xml:23:18-87
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:27:162-184
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:27:185-208
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:27:185-208
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:27:17-104
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:27:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\3440e405963446cdcb0e465b35c8e375\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/64093f21ba3ab292ac69b2077483b5de/AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:32:16-87
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:33:7-197
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:33:7-197
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:33:148-170
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:33:148-170
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:33:171-195
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:33:171-195
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:33:91-147
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:33:91-147
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\edf05db26406501dee775648214578ee\AndroidManifest.xml:33:16-90
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/27879ab18936f867d685402a586656d8/AndroidManifest.xml:33:16-90
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:24:17-71
-permission#com.qdocs.smartschool.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:24:5-109
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:24:17-71
+permission#com.itscool.smartschool.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:26:22-76
-uses-permission#com.qdocs.smartschool.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:26:5-78
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:26:22-76
+uses-permission#com.itscool.smartschool.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:30:19-84
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:31:13-34:29
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.qdocs.smartschool
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.itscool.smartschool
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:33:27-58
-category#com.qdocs.smartschool
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:33:17-60
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:33:27-58
+category#com.itscool.smartschool
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2b095342491a19055451442f8e2f948e\AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/1a6ffa637c94c2cc3a3ea571b9293e28/AndroidManifest.xml:43:18-82
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fef0c227f9a29eda9baacd1822c61871\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/5441900d36b8d50028be419482e2b9a7/AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fef0c227f9a29eda9baacd1822c61871\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/5441900d36b8d50028be419482e2b9a7/AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fef0c227f9a29eda9baacd1822c61871\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/5441900d36b8d50028be419482e2b9a7/AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fef0c227f9a29eda9baacd1822c61871\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/5441900d36b8d50028be419482e2b9a7/AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fef0c227f9a29eda9baacd1822c61871\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/5441900d36b8d50028be419482e2b9a7/AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\5b3df6d83b475e5895d0bb3a21916461\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/038102ec542b97a4e2e5c9c38bbd2866/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\5b3df6d83b475e5895d0bb3a21916461\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/038102ec542b97a4e2e5c9c38bbd2866/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\sam\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\5b3df6d83b475e5895d0bb3a21916461\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/038102ec542b97a4e2e5c9c38bbd2866/AndroidManifest.xml:20:20-65

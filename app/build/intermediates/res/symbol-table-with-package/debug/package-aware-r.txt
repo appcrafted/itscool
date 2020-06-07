@@ -1066,6 +1066,7 @@ drawable avd_show_password
 drawable baseline_done
 drawable baseline_receipt
 drawable bg_clickable
+drawable book
 drawable bottom_navigation_background
 drawable button_text_color
 drawable checkbox_background

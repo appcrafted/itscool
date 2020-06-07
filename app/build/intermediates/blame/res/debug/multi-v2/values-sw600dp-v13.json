@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/root/Documents/forme/itscool/schoolApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/res/values-sw600dp-v13/values-sw600dp-v13.xml",

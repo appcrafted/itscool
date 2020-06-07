@@ -1,4 +1,4 @@
-#Tue May 19 22:46:05 IST 2020
-base.0=/root/Documents/forme/itscool/schoolApp/app/build/intermediates/dex/debug/mergeDexDebug/out
+#Sat Jun 06 17:54:13 IST 2020
+base.0=/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex

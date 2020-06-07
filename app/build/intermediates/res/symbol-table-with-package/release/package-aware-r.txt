@@ -1,4 +1,4 @@
-com.qdocs.smartschool
+com.itscool.smartschool
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1060,12 +1060,12 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add_leave
-drawable app_icon
 drawable avd_hide_password
 drawable avd_show_password
 drawable baseline_done
 drawable baseline_receipt
 drawable bg_clickable
+drawable book
 drawable bottom_navigation_background
 drawable button_text_color
 drawable checkbox_background
@@ -1196,7 +1196,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable online_logo
 drawable pink_border
 drawable placeholder_user
 drawable rb_login_default_style

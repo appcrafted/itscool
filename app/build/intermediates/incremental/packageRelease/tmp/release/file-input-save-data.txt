@@ -1,23 +1,23 @@
 #Internal package file, do not edit.
-#Thu Apr 09 17:07:27 IST 2020
-2.base=D\:\\SmartSchoolApp\\SmartSchool\\androapp\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+#Sun Jun 07 20:11:44 IST 2020
+2.base=/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
 0.path=fonts/roboto.ttf
 2.baseType=DIRECTORY
-3.base=D\:\\SmartSchoolApp\\SmartSchool\\androapp\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
-2.set=DEX
-1.path=fonts/omnes_extralight.ttf
-4.base=D\:\\SmartSchoolApp\\SmartSchool\\androapp\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
+3.base=/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
+2.set=ASSET
+1.path=classes.dex
+4.base=/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
 count=5
-2.path=classes.dex
+2.path=fonts/omnes_light.ttf
 4.set=ASSET
-3.path=fonts/omnes_light.ttf
+3.path=fonts/omnes_medium.ttf
 3.baseType=DIRECTORY
-1.set=ASSET
-4.path=fonts/omnes_medium.ttf
+1.set=DEX
+4.path=fonts/omnes_extralight.ttf
 1.baseType=DIRECTORY
-0.base=D\:\\SmartSchoolApp\\SmartSchool\\androapp\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
+0.base=/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
 0.baseType=DIRECTORY
 3.set=ASSET
-1.base=D\:\\SmartSchoolApp\\SmartSchool\\androapp\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
+1.base=/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/dex/release/mergeDexRelease/out
 4.baseType=DIRECTORY
 0.set=ASSET

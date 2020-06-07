@@ -583,23 +583,23 @@ public final class R {
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f070057;
         public static final int abc_textfield_search_material = 0x7f070058;
         public static final int bg_clickable = 0x7f070060;
-        public static final int design_fab_background = 0x7f070068;
-        public static final int design_snackbar_background = 0x7f07006c;
-        public static final int ic_apk_box = 0x7f07007a;
-        public static final int ic_certificate_box = 0x7f070084;
-        public static final int ic_document_box = 0x7f07008e;
-        public static final int ic_drawing_box = 0x7f070093;
-        public static final int ic_excel_box = 0x7f070098;
-        public static final int ic_file_gray_116dp = 0x7f07009b;
-        public static final int ic_folder_gray_48dp = 0x7f07009d;
-        public static final int ic_image_box = 0x7f0700a1;
-        public static final int ic_music_box = 0x7f0700a7;
-        public static final int ic_pdf_box = 0x7f0700ba;
-        public static final int ic_powerpoint_box = 0x7f0700be;
-        public static final int ic_video_box = 0x7f0700c8;
-        public static final int ic_word_box = 0x7f0700cb;
-        public static final int ic_zip_box = 0x7f0700cc;
-        public static final int notification_template_icon_bg = 0x7f0700df;
+        public static final int design_fab_background = 0x7f070069;
+        public static final int design_snackbar_background = 0x7f07006d;
+        public static final int ic_apk_box = 0x7f07007b;
+        public static final int ic_certificate_box = 0x7f070085;
+        public static final int ic_document_box = 0x7f07008f;
+        public static final int ic_drawing_box = 0x7f070094;
+        public static final int ic_excel_box = 0x7f070099;
+        public static final int ic_file_gray_116dp = 0x7f07009c;
+        public static final int ic_folder_gray_48dp = 0x7f07009e;
+        public static final int ic_image_box = 0x7f0700a2;
+        public static final int ic_music_box = 0x7f0700a8;
+        public static final int ic_pdf_box = 0x7f0700bb;
+        public static final int ic_powerpoint_box = 0x7f0700bf;
+        public static final int ic_video_box = 0x7f0700c9;
+        public static final int ic_word_box = 0x7f0700cc;
+        public static final int ic_zip_box = 0x7f0700cd;
+        public static final int notification_template_icon_bg = 0x7f0700e0;
     }
     public static final class id {
         private id() {}

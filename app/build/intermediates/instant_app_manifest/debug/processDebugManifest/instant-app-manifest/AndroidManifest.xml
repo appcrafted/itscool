@@ -30,11 +30,12 @@
         android:allowBackup="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@drawable/app_icon"
+        android:icon="@drawable/book"
         android:label="@string/app_name"
         android:launchMode="singleInstance"
-        android:roundIcon="@drawable/app_icon"
+        android:roundIcon="@drawable/book"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity android:name="com.itscool.smartschool.students.NotificationList" />

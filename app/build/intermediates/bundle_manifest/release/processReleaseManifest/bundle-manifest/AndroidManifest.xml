@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.qdocs.smartschool"
+    package="com.itscool.smartschool"
     android:versionCode="1"
     android:versionName="2.1" >
 
@@ -19,45 +19,45 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.qdocs.smartschool.permission.C2D_MESSAGE"
+        android:name="com.itscool.smartschool.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.qdocs.smartschool.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.itscool.smartschool.permission.C2D_MESSAGE" />
 
     <application
-        android:name="com.qdocs.smartschool.utils.MyApp"
+        android:name="com.itscool.smartschool.utils.MyApp"
         android:allowBackup="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-        android:icon="@drawable/app_icon"
+        android:icon="@drawable/book"
         android:label="@string/app_name"
         android:launchMode="singleInstance"
-        android:roundIcon="@drawable/app_icon"
+        android:roundIcon="@drawable/book"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.qdocs.smartschool.students.NotificationList" />
-        <activity android:name="com.qdocs.smartschool.students.StudentOnlineExamQuestionsNew" />
-        <activity android:name="com.qdocs.smartschool.students.StudentOnlineExamResult" />
-        <activity android:name="com.qdocs.smartschool.students.StudentOnlineExam" />
-        <activity android:name="com.qdocs.smartschool.AboutSchool" />
-        <activity android:name="com.qdocs.smartschool.students.StudentTimeline" />
-        <activity android:name="com.qdocs.smartschool.students.StudentDocuments" />
-        <activity android:name="com.qdocs.smartschool.SplashActivity" >
+        <activity android:name="com.itscool.smartschool.students.NotificationList" />
+        <activity android:name="com.itscool.smartschool.students.StudentOnlineExamQuestionsNew" />
+        <activity android:name="com.itscool.smartschool.students.StudentOnlineExamResult" />
+        <activity android:name="com.itscool.smartschool.students.StudentOnlineExam" />
+        <activity android:name="com.itscool.smartschool.AboutSchool" />
+        <activity android:name="com.itscool.smartschool.students.StudentTimeline" />
+        <activity android:name="com.itscool.smartschool.students.StudentDocuments" />
+        <activity android:name="com.itscool.smartschool.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.qdocs.smartschool.Login" />
-        <activity android:name="com.qdocs.smartschool.students.StudentProfile" />
-        <activity android:name="com.qdocs.smartschool.students.StudentProfileNew" />
-        <activity android:name="com.qdocs.smartschool.students.StudentProfileDetailsNew" />
-        <activity android:name="com.qdocs.smartschool.students.StudentUploadHomework" />
-        <activity android:name="com.qdocs.smartschool.ForgotPassword" />
-        <activity android:name="com.qdocs.smartschool.BaseActivity" />
+        <activity android:name="com.itscool.smartschool.Login" />
+        <activity android:name="com.itscool.smartschool.students.StudentProfile" />
+        <activity android:name="com.itscool.smartschool.students.StudentProfileNew" />
+        <activity android:name="com.itscool.smartschool.students.StudentProfileDetailsNew" />
+        <activity android:name="com.itscool.smartschool.students.StudentUploadHomework" />
+        <activity android:name="com.itscool.smartschool.ForgotPassword" />
+        <activity android:name="com.itscool.smartschool.BaseActivity" />
         <activity
-            android:name="com.qdocs.smartschool.students.StudentFees"
+            android:name="com.itscool.smartschool.students.StudentFees"
             android:noHistory="true" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -67,42 +67,42 @@
                 <data android:scheme="student_fees" />
             </intent-filter>
         </activity>
-        <activity android:name="com.qdocs.smartschool.students.StudentNoticeBoard" />
-        <activity android:name="com.qdocs.smartschool.students.StudentExaminationList" />
-        <activity android:name="com.qdocs.smartschool.students.StudentReportCard_ExamListResult" />
-        <activity android:name="com.qdocs.smartschool.students.StudentSubjectList" />
-        <activity android:name="com.qdocs.smartschool.students.StudentChat" />
-        <activity android:name="com.qdocs.smartschool.students.StudentTeachersList" />
-        <activity android:name="com.qdocs.smartschool.students.StudentTransportRoutes" />
-        <activity android:name="com.qdocs.smartschool.students.StudentDownloads" />
-        <activity android:name="com.qdocs.smartschool.students.StudentAttendance" />
-        <activity android:name="com.qdocs.smartschool.students.StudentReportCard_ExamList" />
-        <activity android:name="com.qdocs.smartschool.students.StudentExamSchedule_ExamList" />
-        <activity android:name="com.qdocs.smartschool.students.StudentExamSchedule" />
-        <activity android:name="com.qdocs.smartschool.students.StudentHostel" />
-        <activity android:name="com.qdocs.smartschool.students.StudentLibraryBook" />
-        <activity android:name="com.qdocs.smartschool.students.StudentClassTimetable" />
-        <activity android:name="com.qdocs.smartschool.students.StudentHomework" />
-        <activity android:name="com.qdocs.smartschool.students.StudentHomeworkDetails" />
-        <activity android:name="com.qdocs.smartschool.students.StudentLibraryBookIssued" />
-        <activity android:name="com.qdocs.smartschool.students.StudentAppyLeave" />
-        <activity android:name="com.qdocs.smartschool.students.StudentAddLeaveNew" />
-        <activity android:name="com.qdocs.smartschool.students.StudentAddLeave" />
-        <activity android:name="com.qdocs.smartschool.students.StudentEditLeave" />
-        <activity android:name="com.qdocs.smartschool.students.StudentEditLeaveNew" />
-        <activity android:name="com.qdocs.smartschool.TakeUrl" />
+        <activity android:name="com.itscool.smartschool.students.StudentNoticeBoard" />
+        <activity android:name="com.itscool.smartschool.students.StudentExaminationList" />
+        <activity android:name="com.itscool.smartschool.students.StudentReportCard_ExamListResult" />
+        <activity android:name="com.itscool.smartschool.students.StudentSubjectList" />
+        <activity android:name="com.itscool.smartschool.students.StudentChat" />
+        <activity android:name="com.itscool.smartschool.students.StudentTeachersList" />
+        <activity android:name="com.itscool.smartschool.students.StudentTransportRoutes" />
+        <activity android:name="com.itscool.smartschool.students.StudentDownloads" />
+        <activity android:name="com.itscool.smartschool.students.StudentAttendance" />
+        <activity android:name="com.itscool.smartschool.students.StudentReportCard_ExamList" />
+        <activity android:name="com.itscool.smartschool.students.StudentExamSchedule_ExamList" />
+        <activity android:name="com.itscool.smartschool.students.StudentExamSchedule" />
+        <activity android:name="com.itscool.smartschool.students.StudentHostel" />
+        <activity android:name="com.itscool.smartschool.students.StudentLibraryBook" />
+        <activity android:name="com.itscool.smartschool.students.StudentClassTimetable" />
+        <activity android:name="com.itscool.smartschool.students.StudentHomework" />
+        <activity android:name="com.itscool.smartschool.students.StudentHomeworkDetails" />
+        <activity android:name="com.itscool.smartschool.students.StudentLibraryBookIssued" />
+        <activity android:name="com.itscool.smartschool.students.StudentAppyLeave" />
+        <activity android:name="com.itscool.smartschool.students.StudentAddLeaveNew" />
+        <activity android:name="com.itscool.smartschool.students.StudentAddLeave" />
+        <activity android:name="com.itscool.smartschool.students.StudentEditLeave" />
+        <activity android:name="com.itscool.smartschool.students.StudentEditLeaveNew" />
+        <activity android:name="com.itscool.smartschool.TakeUrl" />
         <activity
-            android:name="com.qdocs.smartschool.students.StudentDashboard"
+            android:name="com.itscool.smartschool.students.StudentDashboard"
             android:configChanges="orientation|keyboardHidden|screenSize" />
-        <activity android:name="com.qdocs.smartschool.students.StudentTasks" />
-        <activity android:name="com.qdocs.smartschool.students.Payment" />
+        <activity android:name="com.itscool.smartschool.students.StudentTasks" />
+        <activity android:name="com.itscool.smartschool.students.Payment" />
 
-        <service android:name="com.qdocs.smartschool.utils.MyFirebaseMessagingService" >
+        <service android:name="com.itscool.smartschool.utils.MyFirebaseMessagingService" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="com.qdocs.smartschool.utils.MyFirebaseInstanceIDService" >
+        <service android:name="com.itscool.smartschool.utils.MyFirebaseInstanceIDService" >
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
@@ -156,7 +156,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.qdocs.smartschool" />
+                <category android:name="com.itscool.smartschool" />
             </intent-filter>
         </receiver>
         <!--
@@ -180,7 +180,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.qdocs.smartschool.firebaseinitprovider"
+            android:authorities="com.itscool.smartschool.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

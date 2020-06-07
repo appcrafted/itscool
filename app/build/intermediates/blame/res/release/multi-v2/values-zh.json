@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\SmartSchoolApp\\SmartSchool\\androapp\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\library-1.09.aar\\9d752f451628f969d511a2e80cb69fe9\\res\\values-zh\\values-zh.xml",
+                    "source": "/root/.gradle/caches/transforms-1/files-1.1/library-1.09.aar/f829260f7027d794db901db6a1b44f5c/res/values-zh/values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

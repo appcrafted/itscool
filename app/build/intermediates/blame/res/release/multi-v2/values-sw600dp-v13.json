@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\SmartSchoolApp\\SmartSchool\\androapp\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\50b26017e5d7af9e1604bf6e2d31be39\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0b90adfe1e0a34f9f2090e12619e3fea\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -30,6 +20,16 @@
                         "endLines": "10,11,12,13,14,15,17,18,19,23",
                         "endColumns": "59,69,70,71,57,57,10,63,62,10",
                         "endOffsets": "666,736,807,879,937,995,1104,1168,1231,1403"
+                    }
+                },
+                {
+                    "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e97b91f22d931b83477a1c5de5700e0c/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]

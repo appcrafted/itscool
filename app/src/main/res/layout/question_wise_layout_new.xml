@@ -31,7 +31,7 @@
                     android:minWidth="150dp"
                    android:layout_margin="20dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/online_logo"
+                    android:src="@drawable/splash_logo"
                     android:minHeight="30dp"
                     android:layout_centerVertical="true"
                     android:layout_toEndOf="@+id/drawer_indicator"

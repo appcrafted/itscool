@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\SmartSchoolApp\\SmartSchool\\androapp\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0b90adfe1e0a34f9f2090e12619e3fea\\res\\values-land\\values-land.xml",
+                    "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dd95e36a2d73d670a276f683947ba323/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\50b26017e5d7af9e1604bf6e2d31be39\\res\\values-land\\values-land.xml",
+                    "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e97b91f22d931b83477a1c5de5700e0c/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

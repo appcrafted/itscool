@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/root/Documents/forme/itscool/schoolApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/root/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/d481df7bbddbccb25663ea85ce1f46d9/res/values-v23/values-v23.xml",

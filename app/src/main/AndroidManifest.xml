@@ -4,10 +4,10 @@
 
     <application
         android:name="com.itscool.smartschool.utils.MyApp"
-        android:icon="@drawable/app_icon"
+        android:icon="@drawable/book"
         android:label="@string/app_name"
         android:launchMode="singleInstance"
-        android:roundIcon="@drawable/app_icon"
+        android:roundIcon="@drawable/book"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/root/Documents/forme/itscool/schoolApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/root/Documents/sk/forme/itscool/schoolApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/79c491c07cf1130eb79a568544563283/res/values-v24/values-v24.xml",
